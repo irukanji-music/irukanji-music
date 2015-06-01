@@ -1,3 +1,9 @@
+$( document ).ready(function() {
+
+  //
+
+});
+
 /**
  * Created by Sallar Kaboli <sallar.kaboli@gmail.com>
  * @sallar
