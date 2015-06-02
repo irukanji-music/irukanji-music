@@ -1,3 +1,6 @@
 # Irukanji Music
-http://irukanji-music.com
-http://irukanji-music.github.io
+
+[irukanji-music.com](http://irukanji-music.com)
+
+[irukanji-music.github.io](http://irukanji-music.github.io)
+
