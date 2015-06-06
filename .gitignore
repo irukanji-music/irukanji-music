@@ -1,8 +1,4 @@
 .DS_Store
 .sass-cache/*
-node_modules/*
-gulpfile.js
-package.json
-app/*
 _site/*
 assets/main.css
