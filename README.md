@@ -1,6 +1,7 @@
 # Irukanji Music
 
-[irukanji-music.com](http://irukanji-music.com)
+Web development of Irukanji Music offisial site
 
-[irukanji-music.github.io](http://irukanji-music.github.io)
+Actual version here [irukanji-music.github.io](http://irukanji-music.github.io)
 
+Soon on [irukanji-music.com](http://irukanji-music.com)
