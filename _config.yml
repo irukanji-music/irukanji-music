@@ -7,5 +7,5 @@ port: 2525
 
 sass:
   sass_dir: assets/css
-  style: expanded
+  style: :expanded
   
