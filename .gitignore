@@ -5,3 +5,4 @@ gulpfile.js
 package.json
 app/*
 _site/*
+assets/main.css
