@@ -6,6 +6,33 @@
 
 				<h2>Releases:</h2>
 
+				<div class="isotope-container">
+					{% for releases in site.categories.releases %}
+						<article class="isotope-item">
+							<a href="{{site.baseurl}}{{releases.url}}">
+								<div class="image-contour">
+									<img src="{{site.baseurl}}/assets/img/releases/{{releases.id}}-thumbnail.jpg" alt="{{releases.title}}">
+								</div>
+								<h3>title {{releases.title}}</h3>
+							</a>
+						</article>
+
+						<hr>
+						<div><small>layout</small> {{releases.layout}}</div>
+						<div><small>id</small> {{releases.id}}</div>
+						<div><small>date</small> {{releases.date}}</div>
+						<div><small>title</small> {{releases.title}}</div>
+						<div><small>meta</small> {{releases.meta}}</div>
+						<div><small>keywords</small> {{releases.keywords}}</div>
+						<div><small>category</small> {{releases.category}}</div>
+						<div><small>permalink</small> {{releases.permalink}}</div>
+						<div><small>id</small> {{releases.id}}</div>
+						<div><small>label</small> {{releases.label}}</div>
+						<div><small>ektoplazm-url</small> {{releases.ektoplazm-url}}</div>
+						<hr>
+					{% endfor %}
+				</div>
+
 				<article>
 					<h3>VA "Space Invaders"</h3>
 				</article>
