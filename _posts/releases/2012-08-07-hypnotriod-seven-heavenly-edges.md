@@ -2,7 +2,7 @@
 layout: default
 
 title: Hypnotriod "Seven Heavenly Edges"
-meta: Hypnotriod - Tabula Rasa by Sentimony Records
+meta: Hypnotriod - Seven Heavenly Edges by Sentimony Records
 keywords: Hypnotriod, Seven Heavenly Edges, Sentimony Records
 
 category: releases
@@ -10,7 +10,7 @@ permalink: release/hypnotriod-seven-heavenly-edges
 release-id: hypnotriod-seven-heavenly-edges
 
 label: Sentimony Records
-ektoplazm: 
+ektoplazm: http://www.ektoplazm.com/free-music/hypnotriod-seven-heavenly-edges
 
 ---
 

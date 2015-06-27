@@ -7,11 +7,12 @@
 				<h2>Releases:</h2>
 
 				<div class="isotope-container">
+
 					{% for releases in site.categories.releases %}
 						<article class="isotope-item">
 							<a href="{{site.baseurl}}{{releases.url}}">
 								<div class="image-contour">
-									<img src="{{site.baseurl}}/assets/img/releases/{{releases.release-id}}-th.jpg" alt="{{releases.title}}">
+									<img src="{{site.baseurl}}/assets/img/releases/{{releases.release-id}}-sq.jpg" alt="{{releases.title}}">
 								</div>
 								<h3>{{releases.title}}</h3>
 								<div>By {{releases.label}}</div>
@@ -33,38 +34,8 @@
 
 						</article>
 					{% endfor %}
+
 				</div>
-
-				<article>
-					<h3>VA "Special Places"</h3>
-				</article>
-
-				<article>
-					<h3>VA "Absence Of Gravity"</h3>
-				</article>
-
-				<article>
-					<h3>VA "Sound Drops"</h3>
-				</article>
-
-				<article>
-					<h3>VA "Tempo Syndicate"</h3>
-
-					<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/63195526&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-
-				</article>
-
-				<article>
-					<h3>VA "Grover"</h3>
-				</article>
-
-				<article>
-					<h3>VA "Ocean Scenes: Higher Titans"</h3>
-				</article>
-
-				<article>
-					<h3>Irukanji "Z Lisu"</h3>
-				</article>
 
 			</div>
 		</div>
