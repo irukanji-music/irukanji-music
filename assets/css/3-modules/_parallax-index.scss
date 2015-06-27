@@ -1,0 +1,59 @@
+/* ----------------------------------------------------------------------------------------------------
+parallax index
+---------------------------------------------------------------------------------------------------- */
+.parallax-index {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	text-align: center;
+	background: #000 url(/assets/img/header-bg.jpg) center no-repeat;
+	background-size: cover;
+	// background: transparent;
+	// background: #000;
+
+	.content {
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		
+		hgroup {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			display: inline-block;
+			border: 10px solid #fff;
+			padding: 30px 60px;
+			background: rgba(0,0,0,.5);
+
+			h1 {
+				font-size: 100px;
+				color: #fff;
+				margin: 0;
+				letter-spacing: 14px;
+			}
+
+			h2 {
+				font-size: 20px;
+				color: #fff;
+				margin: 0 0 20px;
+				letter-spacing: 7px;
+			}
+		}
+	}
+	.overlay {
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		// background: #000 url(/assets/img/header-bg.jpg) center no-repeat;
+		// background-size: cover;
+		background: #000;
+		// background: transparent;
+		z-index: 0;
+		opacity: 0;
+	}
+}
