@@ -10,7 +10,7 @@ permalink: release/va-ukranian-dimension
 release-id: va-ukranian-dimension
 
 label: Another Dimension Music
-ektoplazm: http://www.ektoplazm.com/free-music/ukranian-dimension
+ektoplazm: free-music/ukranian-dimension
 
 ---
 

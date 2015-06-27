@@ -10,7 +10,7 @@ permalink: release/va-special-places
 release-id: va-special-places
 
 label: Sentimony Records
-ektoplazm: http://www.ektoplazm.com/free-music/special-places
+ektoplazm: free-music/special-places
 
 ---
 

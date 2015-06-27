@@ -10,7 +10,7 @@ permalink: release/va-true-story
 release-id: va-true-story
 
 label: Sentimony Records
-ektoplazm: http://www.ektoplazm.com/free-music/true-story
+ektoplazm: free-music/true-story
 
 ---
 

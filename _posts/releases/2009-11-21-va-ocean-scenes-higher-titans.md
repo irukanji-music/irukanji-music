@@ -10,7 +10,7 @@ permalink: release/va-ocean-scenes-higher-titans
 release-id: va-ocean-scenes-higher-titans
 
 label: Aqua Deep Music
-ektoplazm: http://www.ektoplazm.com/free-music/ocean-scenes-higher-titans
+ektoplazm: free-music/ocean-scenes-higher-titans
 
 ---
 

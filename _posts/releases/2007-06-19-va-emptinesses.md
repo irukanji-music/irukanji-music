@@ -10,7 +10,7 @@ permalink: release/va-emptinesses
 release-id: va-emptinesses
 
 label: Sentimony Records
-ektoplazm: http://www.ektoplazm.com/free-music/emptinesses
+ektoplazm: free-music/emptinesses
 
 ---
 

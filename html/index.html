@@ -20,9 +20,9 @@ permalink: /
 
 					{% for releases in site.categories.releases %}
 						<article class="isotope-item">
-							<a href="{{ site.baseurl}}{{releases.url }}">
+							<a href="{{ site.baseurl }}{{ releases.url }}">
 								<div class="image-contour">
-									<img src="{{site.baseurl}}/assets/img/releases/{{ releases.release-id }}-sq.jpg" alt="{{ releases.title }}">
+									<img src="{{ site.baseurl }}/assets/img/releases/{{ releases.release-id }}-th.jpg" alt="{{ releases.title }}">
 								</div>
 								<h3>{{ releases.title }}</h3>
 								<div>{{ releases.label }}</div>
@@ -54,5 +54,8 @@ permalink: /
 
 </section>
 
-<!-- <img src="{{site.baseurl}}/assets/img/header-bg.jpg" alt="{{releases.title}}" data-action="zoom">
- -->
+<!-- <img src="{{ site.baseurl }}/assets/img/header-bg.jpg" data-action="zoom"> -->
+
+
+
+

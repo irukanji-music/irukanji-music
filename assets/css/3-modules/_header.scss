@@ -3,7 +3,20 @@ header
 ---------------------------------------------------------------------------------------------------- */
 header {
 	position: fixed;
-	right: 0;
+	left: 0;
 	top: 0;
 	z-index: 99999999999999999999;
+	width: 100%;
+	background: rgba(74, 74, 74, 0.5);
+	padding: 10px 20px;
+	@include box-sizing(border-box);
+
+	a.home {
+		
+	}
+
+	nav {
+		float: right;
+	}
+
 }

@@ -10,7 +10,7 @@ permalink: release/va-tempo-syndicate
 release-id: va-tempo-syndicate
 
 label: Sentimony Records
-ektoplazm: http://www.ektoplazm.com/free-music/tempo-syndicate
+ektoplazm: free-music/tempo-syndicate
 
 ---
 

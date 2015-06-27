@@ -10,7 +10,7 @@ permalink: release/irukanji-z-lisu
 release-id: irukanji-z-lisu
 
 label: Sentimony Records
-ektoplazm: http://www.ektoplazm.com/free-music/irukanji-z-lisu
+ektoplazm: free-music/irukanji-z-lisu
 
 ---
 

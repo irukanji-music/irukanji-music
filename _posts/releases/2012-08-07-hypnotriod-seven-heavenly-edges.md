@@ -10,7 +10,7 @@ permalink: release/hypnotriod-seven-heavenly-edges
 release-id: hypnotriod-seven-heavenly-edges
 
 label: Sentimony Records
-ektoplazm: http://www.ektoplazm.com/free-music/hypnotriod-seven-heavenly-edges
+ektoplazm: free-music/hypnotriod-seven-heavenly-edges
 
 ---
 

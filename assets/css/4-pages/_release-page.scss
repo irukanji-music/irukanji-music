@@ -1,23 +1,11 @@
 /* ----------------------------------------------------------------------------------------------------
-footer
+release page
 ---------------------------------------------------------------------------------------------------- */
-footer {
-	height: auto;
-	width: 100%;
-	position: relative;
-	text-align: center;
-	padding: 40px 0;
+article.release-page {
+	padding: 100px 0;
 
-	nav.contact {
-		margin-bottom: 20px;
-	}
-
-	nav.social {
-		margin-bottom: 20px;
-	}
-
-	p {
-		margin: 0;
+	img {
+		width: 100%;
 	}
 
 }

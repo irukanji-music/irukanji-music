@@ -10,7 +10,7 @@ permalink: release/va-fantazma
 release-id: va-fantazma
 
 label: Sentimony Records
-ektoplazm: http://www.ektoplazm.com/free-music/fantazma
+ektoplazm: free-music/fantazma
 
 ---
 
