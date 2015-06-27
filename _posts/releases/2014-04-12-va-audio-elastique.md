@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: release
 
 title: VA "Audio Elastique"
 meta: VA - Audio Elastique by Another Dimension Music

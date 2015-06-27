@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: release
 
 title: VA "Sound Drops"
 meta: VA - Sound Drops by Warp Brain Records

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: release
 
 title: VA "Ukranian Dimension"
 meta: VA - Ukranian Dimension by Another Dimension Music

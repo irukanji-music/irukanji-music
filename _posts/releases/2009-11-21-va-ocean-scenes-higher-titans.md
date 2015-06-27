@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: release
 
 title: VA "Ocean Scenes&#58; Higher Titans"
 meta: VA - Ocean Scenes Higher Titans by Aqua Deep Music

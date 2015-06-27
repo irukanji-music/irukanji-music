@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: release
 
 title: VA "Tabula Rasa"
 meta: VA - Tabula Rasa by Another Dimension Music

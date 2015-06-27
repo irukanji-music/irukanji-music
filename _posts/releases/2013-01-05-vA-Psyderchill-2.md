@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: release
 
 title: VA "Psyderchill 2"
 meta: VA - Psyderchill 2 by Psyderweb Records

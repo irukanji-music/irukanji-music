@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: release
 
 title: VA "Space Invaders"
 meta: VA - Space Invaders by Another Dimension Music
