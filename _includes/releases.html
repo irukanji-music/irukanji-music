@@ -2,7 +2,7 @@
 
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-sm-4 col-sm-offset-4">
+			<div class="col-sm-8 col-sm-offset-2">
 
 				<h2>Releases:</h2>
 
@@ -11,65 +11,29 @@
 						<article class="isotope-item">
 							<a href="{{site.baseurl}}{{releases.url}}">
 								<div class="image-contour">
-									<img src="{{site.baseurl}}/assets/img/releases/{{releases.id}}-thumbnail.jpg" alt="{{releases.title}}" data-action="zoom">
+									<img src="{{site.baseurl}}/assets/img/releases/{{releases.release-id}}-th.jpg" alt="{{releases.title}}">
 								</div>
-								<h3>title {{releases.title}}</h3>
+								<h3>{{releases.title}}</h3>
+								<div>By {{releases.label}}</div>
 							</a>
-						</article>
 
-						<hr>
-						<div><small>layout</small> {{releases.layout}}</div>
-						<div><small>id</small> {{releases.id}}</div>
-						<div><small>date</small> {{releases.date}}</div>
-						<div><small>title</small> {{releases.title}}</div>
-						<div><small>meta</small> {{releases.meta}}</div>
-						<div><small>keywords</small> {{releases.keywords}}</div>
-						<div><small>category</small> {{releases.category}}</div>
-						<div><small>permalink</small> {{releases.permalink}}</div>
-						<div><small>id</small> {{releases.id}}</div>
-						<div><small>label</small> {{releases.label}}</div>
-						<div><small>ektoplazm-url</small> {{releases.ektoplazm-url}}</div>
-						<hr>
+							<section>
+								<div><small>layout</small> {{releases.layout}}</div>
+								<div><small>id</small> {{releases.id}}</div>
+								<div><small>date</small> {{releases.date | date: "%-d %B %Y"}}</div>
+								<div><small>title</small> {{releases.title}}</div>
+								<div><small>meta</small> {{releases.meta}}</div>
+								<div><small>keywords</small> {{releases.keywords}}</div>
+								<div><small>category</small> {{releases.category}}</div>
+								<div><small>permalink</small> {{releases.permalink}}</div>
+								<div><small>release-id</small> {{releases.release-id}}</div>
+								<div><small>label</small> {{releases.label}}</div>
+								<div><small>ektoplazm</small> {{releases.ektoplazm}}</div>
+							</section>
+
+						</article>
 					{% endfor %}
 				</div>
-
-				<article>
-					<h3>VA "Space Invaders"</h3>
-				</article>
-
-				<article>
-					<h3>VA "Audio Elastique"</h3>
-
-					<div class="embed-responsive embed-responsive-16by9">
-					  <iframe class="embed-responsive-item" src="//coub.com/embed/3hy04?muted=false&autostart=false&originalSize=false&hideTopBar=false&startWithHD=true"></iframe>
-					</div>
-
-				</article>
-
-				<article>
-					<h3>VA "Ukranian Dimension"</h3>
-				</article>
-
-				<article>
-					<h3>VA "Psyderchill 2"</h3>
-				</article>
-
-				<article>
-					<h3>VA "Tabula Rasa"</h3>
-				</article>
-
-				<article>
-					<h3>Hypnotriod "Seven Heavenly Edges"</h3>
-
-					<div class="embed-responsive embed-responsive-16by9">
-					  <iframe class="embed-responsive-item" src="//coub.com/embed/6zz38?muted=false&autostart=false&originalSize=false&hideTopBar=false&startWithHD=true"></iframe>
-					</div>
-
-					<br>
-
-					<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/52257086&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-
-				</article>
 
 				<article>
 					<h3>VA "Special Places"</h3>
@@ -108,4 +72,5 @@
 
 </section>
 
-<img src="{{site.baseurl}}/assets/img/header-bg.jpg" alt="{{releases.title}}" data-action="zoom">
+<!-- <img src="{{site.baseurl}}/assets/img/header-bg.jpg" alt="{{releases.title}}" data-action="zoom">
+ -->

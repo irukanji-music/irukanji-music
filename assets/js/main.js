@@ -111,6 +111,7 @@ $(document).ready(function() {
 	$container.imagesLoaded( function() {
 		$container.isotope({
 			itemSelector: '.isotope-item',
+			layoutMode: 'fitRows',
 		});
 	});
 });

@@ -1,0 +1,32 @@
+.releases {
+	height: auto;
+	width: 100%;
+	position: relative;
+	text-align: center;
+	padding: 40px 0;
+
+	article.isotope-item {
+		float: left;
+		width: 33.333333333333333%;
+		margin-bottom: 30px;
+		padding: 0 20px;
+		@include box-sizing(border-box);
+
+		h3 {
+			margin: 10px 0;
+		}
+
+		img {
+			width: 100%;
+		}
+
+		section {
+			display: none;
+		}
+	}
+
+	small {
+		color: #444;
+	}
+
+}

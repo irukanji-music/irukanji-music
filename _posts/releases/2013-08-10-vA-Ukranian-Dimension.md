@@ -2,15 +2,15 @@
 layout: default
 
 title: VA "Ukranian Dimension"
-meta: 
-keywords: 
+meta: VA - Ukranian Dimension by Another Dimension Music
+keywords: VA Ukranian Dimension, Another Dimension Music
 
 category: releases
 permalink: release/va-ukranian-dimension
 release-id: va-ukranian-dimension
 
 label: Another Dimension Music
-url-ektoplazm: http://www.ektoplazm.com/free-music/ukranian-dimension
+ektoplazm: http://www.ektoplazm.com/free-music/ukranian-dimension
 
 ---
 
