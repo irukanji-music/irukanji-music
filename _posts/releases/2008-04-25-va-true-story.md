@@ -1,16 +1,16 @@
 ---
 layout: release
 
-title: VA "Grower"
-meta: VA - Grower by Lookinglook Records
-keywords: VA Grower, Lookinglook Records
+title: VA "True Story"
+meta: VA - True Story by Sentimony Records
+keywords: VA True Story, Sentimony Records
 
 category: releases
-permalink: release/va-grower
-release-id: va-grower
+permalink: release/va-true-story
+release-id: va-true-story
 
-label: Lookinglook Records
-ektoplazm: http://www.ektoplazm.com/free-music/grower
+label: Sentimony Records
+ektoplazm: http://www.ektoplazm.com/free-music/true-story
 
 ---
 

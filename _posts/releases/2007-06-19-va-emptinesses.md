@@ -1,16 +1,16 @@
 ---
 layout: release
 
-title: VA "Grower"
-meta: VA - Grower by Lookinglook Records
-keywords: VA Grower, Lookinglook Records
+title: VA "Emptinesses"
+meta: VA - Emptinesses by Sentimony Records
+keywords: VA Emptinesses, Sentimony Records
 
 category: releases
-permalink: release/va-grower
-release-id: va-grower
+permalink: release/va-emptinesses
+release-id: va-emptinesses
 
-label: Lookinglook Records
-ektoplazm: http://www.ektoplazm.com/free-music/grower
+label: Sentimony Records
+ektoplazm: http://www.ektoplazm.com/free-music/emptinesses
 
 ---
 

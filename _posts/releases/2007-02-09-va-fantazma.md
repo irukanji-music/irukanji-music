@@ -1,16 +1,16 @@
 ---
 layout: release
 
-title: VA "Grower"
-meta: VA - Grower by Lookinglook Records
-keywords: VA Grower, Lookinglook Records
+title: VA "Fantazma"
+meta: VA - Fantazma by Sentimony Records
+keywords: VA Fantazma, Sentimony Records
 
 category: releases
-permalink: release/va-grower
-release-id: va-grower
+permalink: release/va-fantazma
+release-id: va-fantazma
 
-label: Lookinglook Records
-ektoplazm: http://www.ektoplazm.com/free-music/grower
+label: Sentimony Records
+ektoplazm: http://www.ektoplazm.com/free-music/fantazma
 
 ---
 

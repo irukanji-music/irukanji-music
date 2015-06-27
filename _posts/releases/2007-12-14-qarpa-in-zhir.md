@@ -1,16 +1,16 @@
 ---
 layout: release
 
-title: VA "Grower"
-meta: VA - Grower by Lookinglook Records
-keywords: VA Grower, Lookinglook Records
+title: Qarpa "In Zhir"
+meta: Qarpa - In Zhir by ЯОК Music
+keywords: Qarpa, In Zhir, ЯОК Music
 
 category: releases
-permalink: release/va-grower
-release-id: va-grower
+permalink: release/qarpa-in-zhir
+release-id: qarpa-in-zhir
 
-label: Lookinglook Records
-ektoplazm: http://www.ektoplazm.com/free-music/grower
+label: ЯОК Music
+ektoplazm: 
 
 ---
 

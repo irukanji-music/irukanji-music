@@ -1,16 +1,16 @@
 ---
 layout: release
 
-title: VA "Grower"
-meta: VA - Grower by Lookinglook Records
-keywords: VA Grower, Lookinglook Records
+title: Sphingida "Origin"
+meta: Sphingida - Origin by Sentimony Records
+keywords: Sphingida Origin, Sentimony Records
 
 category: releases
-permalink: release/va-grower
-release-id: va-grower
+permalink: release/va-sphingida-origin
+release-id: va-sphingida-origin
 
-label: Lookinglook Records
-ektoplazm: http://www.ektoplazm.com/free-music/grower
+label: Sentimony Records
+ektoplazm: http://www.ektoplazm.com/free-music/sphingida-origin
 
 ---
 
