@@ -105,3 +105,12 @@ scroller.init();
 
 
 
+// Isotope
+var $container = $('.isotope-container');
+$(document).ready(function() {
+	$container.imagesLoaded( function() {
+		$container.isotope({
+			itemSelector: '.isotope-item',
+		});
+	});
+});
