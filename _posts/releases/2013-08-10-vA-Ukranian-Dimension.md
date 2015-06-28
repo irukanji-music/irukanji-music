@@ -16,6 +16,7 @@ label-bandcamp: anotherdimension.bandcamp.com/album/admcd003-v-a-ukranian-dimens
 
 bandcamp-album: 2563369517
 bandcamp-track: 204260206
----
 
+discogs: http://www.discogs.com/Ablepsia-Ukranian-Dimension/release/4833250
+---
 

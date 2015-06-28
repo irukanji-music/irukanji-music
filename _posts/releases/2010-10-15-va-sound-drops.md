@@ -16,5 +16,7 @@ label-bandcamp:
 
 bandcamp-album: 2563369517
 bandcamp-track: 4120569002
+
+discogs: http://www.discogs.com/Various-Sound-Drops/release/2481187
 ---
 

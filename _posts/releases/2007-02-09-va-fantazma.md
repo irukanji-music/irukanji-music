@@ -11,10 +11,12 @@ release-id: va-fantazma
 
 label: Sentimony Records
 ektoplazm: free-music/fantazma
-label-link: 
-label-bandcamp: 
+label-link: sentimony.com/release/va-fantazma
+label-bandcamp: sentimony.bandcamp.com/album/va-fantazma
 
 bandcamp-album: 2563369517
 bandcamp-track: 3110776069
+
+discogs: http://www.discogs.com/Various-Fantazma/release/952240
 ---
 

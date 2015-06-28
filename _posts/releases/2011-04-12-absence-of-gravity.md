@@ -16,5 +16,7 @@ label-bandcamp:
 
 bandcamp-album: 2563369517
 bandcamp-track: 807150293
+
+discogs: http://www.discogs.com/Various-Absence-Of-Gravity/release/2820972
 ---
 

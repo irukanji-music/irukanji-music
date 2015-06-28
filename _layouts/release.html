@@ -20,27 +20,37 @@ layout: default
 
 						<img src="{{ site.baseurl }}/assets/img/releases/{{ page.release-id }}-sq.jpg" alt='{{ page.title }}' data-action="zoom">
 
-						<div>Label: {{ page.label }}</div>
-						<div>Released: {{ page.date | date: "%-d %B %Y" }}</div>
+						<p>
+							<div>Label: {{ page.label }}</div>
+							<div>Released: {{ page.date | date: "%-d %B %Y" }}</div>
 
-						{% if page.label-link %}
-						<div>Official label: <a href="http://{{ page.label-link }}" target="_blank">release page</a></div>
-						{% endif %}
+							{% if page.label-link %}
+							<div>Official Label: <a href="http://{{ page.label-link }}" target="_blank">Release Page</a></div>
+							{% endif %}
 
-						{% if page.label-bandcamp %}
-						<div>Support label on: <a href="http://{{ page.label-bandcamp }}" target="_blank"><span class="icon-bandcamp"></span> bandcamp</a></div>
-						{% endif %}
+							{% if page.label-bandcamp %}
+							<div>Support Label on: <a href="http://{{ page.label-bandcamp }}" target="_blank"><span class="icon-bandcamp"></span> Bandcamp</a></div>
+							{% endif %}
+						</p>
 
-						{% if page.ektoplazm %}
-						<div>Download from: <a href="http://www.ektoplazm.com/{{ page.ektoplazm }}" target="_blank">Ektoplazm</a></div>
-						{% endif %}
+						<p><span class="icon-spiral2"></span></p>
+
+						<p>
+							{% if page.ektoplazm %}
+							<div>Download from: <a href="http://www.ektoplazm.com/{{ page.ektoplazm }}" target="_blank">Ektoplazm</a></div>
+							{% endif %}
+
+							{% if page.discogs %}
+							<div>View release on: <a href="{{ page.discogs }}" target="_blank"><span class="icon-discogs"></span> Discogs</a></div>
+							{% endif %}
+						</p>
 
 					</div>
 					<div class="col-sm-7">
 
 						{% if page.bandcamp-album %}
-						<p>Listen, download for free (mp3, flac, wav) or donate Irukanji on <span class="icon-bandcamp"></span> bandcamp. Huge thanks for your support!</p>
-						<iframe style="border: 0; width: 100%; height: 472px;" src="https://bandcamp.com/EmbeddedPlayer/album={{ page.bandcamp-album }}/{% if page.bandcamp-track %}track={{ page.bandcamp-track }}/{% endif %}size=large/bgcol=333333/linkcol=0ff/artwork=small/transparent=true/" seamless></iframe>
+						<p>Listen, download for free (mp3, flac, wav) or donate Irukanji on <a href="https://irukanji.bandcamp.com" target="_blank"><span class="icon-bandcamp"></span> bandcamp</a>. Huge thanks for your support!</p>
+						<iframe style="border: 0; width: 100%; height: 800px;" src="https://bandcamp.com/EmbeddedPlayer/album={{ page.bandcamp-album }}/{% if page.bandcamp-track %}track={{ page.bandcamp-track }}/{% endif %}size=large/bgcol=333333/linkcol=0ff/artwork=small/transparent=true/" seamless></iframe>
 						{% endif %}
 
 					</div>

@@ -2,7 +2,7 @@
 layout: release
 
 title: VA "Skygravity 2&#58; Solar System"
-meta: VA - Skygravity 2 Solar System by Skygravity Records
+meta: VA - Skygravity 2&#58; Solar System by Skygravity Records
 keywords: VA Skygravity 2 Solar System, Skygravity Records
 
 category: releases
@@ -16,5 +16,7 @@ label-bandcamp:
 
 bandcamp-album: 2563369517
 bandcamp-track: 
+
+discogs: http://www.discogs.com/Various-Skygravity-Vol2-Solar-System/release/1021821
 ---
 

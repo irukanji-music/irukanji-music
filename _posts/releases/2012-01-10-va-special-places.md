@@ -16,5 +16,7 @@ label-bandcamp:
 
 bandcamp-album: 2563369517
 bandcamp-track: 430811055
+
+discogs: http://www.discogs.com/AstroPilot-Special-Places/release/3517621
 ---
 

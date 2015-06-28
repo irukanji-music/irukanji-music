@@ -16,8 +16,9 @@ label-bandcamp:
 
 bandcamp-album: 2563369517
 bandcamp-track: 3570631252
----
 
+discogs: http://www.discogs.com/Hypnotriod-Seven-Heavenly-Edges/release/3618882
+---
 
 <!-- <div class="embed-responsive embed-responsive-4by3">
 	<iframe class="embed-responsive-item" src="//coub.com/embed/6zz38?muted=false&autostart=false&originalSize=false&hideTopBar=false&startWithHD=true"></iframe>

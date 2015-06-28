@@ -16,5 +16,7 @@ label-bandcamp:
 
 bandcamp-album: 2563369517
 bandcamp-track: 2218475650
+
+discogs: http://www.discogs.com/Harmonic-Frequency-Psyderchill-2/release/4207900
 ---
 

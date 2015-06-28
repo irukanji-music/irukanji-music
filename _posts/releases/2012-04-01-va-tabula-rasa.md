@@ -16,6 +16,7 @@ label-bandcamp: anotherdimension.bandcamp.com/album/admcd001-v-a-tabula-rasa-sal
 
 bandcamp-album: 2563369517
 bandcamp-track: 
----
 
+discogs: http://www.discogs.com/Various-Tabula-Rasa/release/3618811
+---
 

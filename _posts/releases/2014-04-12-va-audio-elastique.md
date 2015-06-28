@@ -16,6 +16,8 @@ label-bandcamp: anotherdimension.bandcamp.com/album/admcd004-v-a-audio-elastique
 
 bandcamp-album: 2563369517
 bandcamp-track: 1887927502
+
+discogs: http://www.discogs.com/Various-Audio-Elastique/release/5821893
 ---
 
 <!-- <div class="embed-responsive embed-responsive-4by3">
