@@ -2,21 +2,30 @@
 header
 ---------------------------------------------------------------------------------------------------- */
 header {
-	position: fixed;
-	left: 0;
-	top: 0;
-	z-index: 99999999999999999999;
-	width: 100%;
-	// background: rgba(74, 74, 74, 0.5);
-	background: #222;
-	padding: 10px 20px;
-	@include box-sizing(border-box);
 
+	&.header {
+		position: fixed;
+		left: 0;
+		top: 0;
+		z-index: 99999999999999999999;
+		width: 100%;
+		background: rgba(34, 34, 34, 0.0);
+		// background: #222;
+		padding: 20px 12.5%;
+		@include box-sizing(border-box);
+	}
+	&.header-down {
+		float: left;
+		padding: 10px 2.5%;
+		background: rgba(34, 34, 34, 1.0);
+	}
+	&.header-up {}
 
 	nav.brand {
 		float: left;
 
 		a {
+			float: left;
 			margin-right: 20px;
 			// text-transform: uppercase;
 
@@ -35,4 +44,10 @@ header {
 		}
 	}
 
+}
+
+.zoom-overlay-open {
+	header.header {
+
+	}
 }

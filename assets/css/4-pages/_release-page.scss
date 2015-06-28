@@ -1,6 +1,29 @@
 /* ----------------------------------------------------------------------------------------------------
 release page
 ---------------------------------------------------------------------------------------------------- */
+.prallax-release {
+	position: relative;
+
+	&:after {
+		position: absolute;
+		content: '';
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		background-image:
+			radial-gradient(circle at 25% 25%, #222 10%, transparent 15%),
+			radial-gradient(circle at 75% 75%, #111 10%, transparent 15%);
+		background-size: 5px 5px;
+	}
+
+	img {
+		width: 100%;
+		display: block;
+		margin-bottom: 0;
+	}
+}
+
 article.release-page {
 	padding: 100px 0;
 
