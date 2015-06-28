@@ -7,7 +7,8 @@ header {
 	top: 0;
 	z-index: 99999999999999999999;
 	width: 100%;
-	background: rgba(74, 74, 74, 0.5);
+	// background: rgba(74, 74, 74, 0.5);
+	background: #222;
 	padding: 10px 20px;
 	@include box-sizing(border-box);
 
@@ -15,7 +16,7 @@ header {
 	nav.brand {
 		float: left;
 
-		a.home {
+		a {
 			margin-right: 20px;
 			// text-transform: uppercase;
 
@@ -26,11 +27,11 @@ header {
 			}
 		}
 	}
-	nav.bandcamp {
+	nav.social {
 		float: right;
 
 		a {
-
+			margin-left: 20px;
 		}
 	}
 
