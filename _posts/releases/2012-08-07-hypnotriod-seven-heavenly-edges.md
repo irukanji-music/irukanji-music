@@ -11,8 +11,8 @@ release-id: hypnotriod-seven-heavenly-edges
 
 label: Sentimony Records
 ektoplazm: free-music/hypnotriod-seven-heavenly-edges
-label-link: 
-label-bandcamp: 
+label-link: sentimony.com/release/hypnotriod-seven-heavenly-edges
+label-bandcamp: sentimony.bandcamp.com/album/hypnotriod-seven-heavenly-edges
 
 bandcamp-album: 2563369517
 bandcamp-track: 3570631252

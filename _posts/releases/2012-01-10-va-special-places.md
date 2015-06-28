@@ -11,8 +11,8 @@ release-id: va-special-places
 
 label: Sentimony Records
 ektoplazm: free-music/special-places
-label-link: 
-label-bandcamp: 
+label-link: sentimony.com/release/va-special-places
+label-bandcamp: sentimony.bandcamp.com/album/va-special-places
 
 bandcamp-album: 2563369517
 bandcamp-track: 430811055

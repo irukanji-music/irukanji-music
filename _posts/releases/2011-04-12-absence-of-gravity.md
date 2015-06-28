@@ -11,8 +11,8 @@ release-id: va-absence-of-gravity
 
 label: Sentimony Records
 ektoplazm: free-music/absence-of-gravity
-label-link: 
-label-bandcamp: 
+label-link: sentimony.com/release/va-absence-of-gravity
+label-bandcamp: sentimony.bandcamp.com/album/va-absence-of-gravity
 
 bandcamp-album: 2563369517
 bandcamp-track: 807150293
