@@ -11,7 +11,11 @@ release-id: va-tabula-rasa
 
 label: Another Dimension Music
 ektoplazm: 
+label-link: anotherdimension.com.ua/releases/admcd001
+label-bandcamp: anotherdimension.bandcamp.com/album/admcd001-v-a-tabula-rasa-sale
 
+bandcamp-album: 2563369517
+bandcamp-track: 
 ---
 
 

@@ -11,6 +11,10 @@ release-id: va-true-story
 
 label: Sentimony Records
 ektoplazm: free-music/true-story
+label-link: 
+label-bandcamp: 
 
+bandcamp-album: 2563369517
+bandcamp-track: 
 ---
 

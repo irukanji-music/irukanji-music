@@ -11,6 +11,10 @@ release-id: va-the-best-electronica-in-ua
 
 label: CTS Records
 ektoplazm: 
+label-link: 
+label-bandcamp: 
 
+bandcamp-album: 2563369517
+bandcamp-track: 
 ---
 

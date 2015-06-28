@@ -11,6 +11,10 @@ release-id: va-fantazma
 
 label: Sentimony Records
 ektoplazm: free-music/fantazma
+label-link: 
+label-bandcamp: 
 
+bandcamp-album: 2563369517
+bandcamp-track: 
 ---
 
