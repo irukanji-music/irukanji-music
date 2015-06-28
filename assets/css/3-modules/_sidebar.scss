@@ -1,0 +1,25 @@
+/* ----------------------------------------------------------------------------------------------------
+sidebar
+---------------------------------------------------------------------------------------------------- */
+aside {
+	.isotope-container {
+		margin-bottom: 10px;
+		article.isotope-item {
+			float: left;
+			width: 100%;
+			margin-bottom: 10px;
+			// padding: 0 20px;
+			// @include box-sizing(border-box);
+
+			.image-contour {
+				float: left;
+				img {
+					max-width: 60px;
+					margin-bottom: 0;
+					margin-right: 10px;
+					// width: 100%;
+				}
+			}
+		}
+	}
+}

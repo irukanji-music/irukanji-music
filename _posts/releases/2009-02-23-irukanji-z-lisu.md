@@ -12,5 +12,7 @@ release-id: irukanji-z-lisu
 label: Sentimony Records
 ektoplazm: free-music/irukanji-z-lisu
 
+bandcamp-album: 2581336461
+bandcamp-track: 
 ---
 

@@ -14,6 +14,7 @@ ektoplazm:
 label-link: anotherdimension.com.ua/releases/admcd006
 label-bandcamp: anotherdimension.bandcamp.com/album/admcd006-v-a-space-invaders-out-now
 
+bandcamp-album: 2563369517
+bandcamp-track: 52697559
 ---
-
 

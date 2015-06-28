@@ -3,10 +3,8 @@ layout: default
 titleAfter: Psychedelic Electronica Music
 meta: Irukanji - psychedelic music project from Kyiv, Ukraine
 keywords: 
-permalink: /
+permalink: /discography/
 ---
-
-{% include parallax-index.html %}
 
 <section class="releases">
 
@@ -18,7 +16,7 @@ permalink: /
 
 				<div class="isotope-container">
 
-					{% for releases in site.categories.releases limit:6 %}
+					{% for releases in site.categories.releases %}
 						<article class="isotope-item">
 							<a href="{{ site.baseurl }}{{ releases.url }}">
 								<div class="image-contour">
@@ -47,8 +45,6 @@ permalink: /
 					{% endfor %}
 
 				</div>
-
-				<a href="{{ site.baseurl }}/discography"><span class="icon-discogs"></span>  Veiw full discography</a>
 
 			</div>
 		</div>

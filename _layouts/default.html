@@ -21,8 +21,11 @@
 	{% include preloader.html %}
 
 	<header>
-		<a class="home" href="{{ site.baseurl }}/"><span class="icon-deer"></span> Irukanji</a>
-		<nav>
+		<nav class="brand">
+			<a class="home" href="{{ site.baseurl }}/"><span class="icon-deer"></span> Irukanji</a>
+			<a href="{{ site.baseurl }}/discography"><span class="icon-discogs"></span> Discography</a>
+		</nav>
+		<nav class="bandcamp">
 			<a href="https://irukanji.bandcamp.com" target="_blank"><span class="icon-bandcamp"></span> bandcamp</a>
 		</nav>
 	</header>
