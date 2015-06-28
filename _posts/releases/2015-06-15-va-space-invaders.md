@@ -11,6 +11,8 @@ release-id: va-space-invaders
 
 label: Another Dimension Music
 ektoplazm: 
+label-link: anotherdimension.com.ua/releases/admcd006
+label-bandcamp: anotherdimension.bandcamp.com/album/admcd006-v-a-space-invaders-out-now
 
 ---
 

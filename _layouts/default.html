@@ -16,7 +16,7 @@
 	<link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/img/favicons/favicon-32.png">
 
 </head>
-<body>
+<body class="header-waypoint" data-animate-down="nav-top-small" data-animate-up="nav-top-large">
 
 	{% include preloader.html %}
 
@@ -50,8 +50,10 @@
 	</footer>
 
 	<script src="{{ site.baseurl }}/assets/js/vendor/jquery-2.1.1.min.js"></script>
+	<script src="{{ site.baseurl }}/assets/js/vendor/bootstrap.min.js"></script>
 	<script src="{{ site.baseurl }}/assets/js/vendor/imagesloaded.pkgd.min.js"></script>
 	<script src="{{ site.baseurl }}/assets/js/vendor/isotope.pkgd.min.js"></script>
+	<script src="{{ site.baseurl }}/assets/js/vendor/waypoints.min.js"></script>
 	<script src="{{ site.baseurl }}/assets/js/vendor/zoom.js"></script>
 	<script src="{{ site.baseurl }}/assets/js/main.js"></script>
 	<script>

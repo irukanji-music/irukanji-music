@@ -11,7 +11,7 @@ layout: default
 				<div class="row">
 					<div class="col-sm-6">
 
-						<img src="{{ site.baseurl }}/assets/img/releases/{{ page.release-id }}-sq.jpg" alt="{{ page.title }}">
+						<img src="{{ site.baseurl }}/assets/img/releases/{{ page.release-id }}-sq.jpg" alt='{{ page.title }}' data-action="zoom">
 
 					</div>
 					<div class="col-sm-6">
@@ -19,7 +19,18 @@ layout: default
 						<h1>{{ page:title }}</h1>
 						<div>Label: {{ page.label }}</div>
 						<div>Released: {{ page.date | date: "%-d %B %Y" }}</div>
-						{% if page.ektoplazm %}<div>Download from: <a href="http://www.ektoplazm.com/{{ page.ektoplazm }}" target="_blank">Ektoplazm</a></div>{% endif %}
+
+						{% if page.ektoplazm %}
+						<div>Download from: <a href="http://www.ektoplazm.com/{{ page.ektoplazm }}" target="_blank">Ektoplazm</a></div>
+						{% endif %}
+
+						{% if page.label-link %}
+						<div>label-link: <a href="http://{{ page.label-link }}" target="_blank">Go</a></div>
+						{% endif %}
+
+						{% if page.label-bandcamp %}
+						<div>label-bandcamp: <a href="http://{{ page.label-bandcamp }}" target="_blank">Go</a></div>
+						{% endif %}
 
 					</div>
 				</div>
