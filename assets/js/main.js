@@ -124,7 +124,7 @@ $('.header-waypoint').each( function(i) {
 		else if( direction === 'up' && animClassUp ){
 			$head.attr('class', 'header ' + animClassUp);
 		}
-	}, { offset: '-1px' } );
+	}, { offset: '-40%' } );
 });
 
 

@@ -22,11 +22,11 @@
 
 	<header class="header">
 		<nav class="brand">
-			<a class="home" href="{{ site.baseurl }}/"><span class="icon-deer"></span> Irukanji</a>
-			<a href="{{ site.baseurl }}/discography"><span class="icon-discogs"></span> Discography</a>
+			<a href="{{ site.baseurl }}/" class="{% if page.url == '/' %}selected{% endif %}"><span class="icon-deer"></span> Irukanji</a>
+			<a href="{{ site.baseurl }}/discography" class="{% if page.url contains 'discography' %}selected{% endif %}"><span class="icon-discogs"></span> Discography</a>
 		</nav>
 		<nav class="social">
-			<span>Follow Irukanji:</span>
+			<!-- <span>Follow Irukanji:</span> -->
 			<a href="https://irukanji.bandcamp.com" target="_blank"><span class="icon-bandcamp"></span> bandcamp</a>
 			<a href="https://www.facebook.com/irukanji.music" target="_blank"><span class="icon-facebook-official"></span> facebook</a>
 			<a href="https://soundcloud.com/irukanji-music" target="_blank"><span class="icon-soundcloud"> soundcloud</a>
@@ -60,6 +60,7 @@
 	<script src="{{ site.baseurl }}/assets/js/vendor/imagesloaded.pkgd.min.js"></script>
 	<script src="{{ site.baseurl }}/assets/js/vendor/isotope.pkgd.min.js"></script>
 	<script src="{{ site.baseurl }}/assets/js/vendor/waypoints.min.js"></script>
+	<script src="{{ site.baseurl }}/assets/js/vendor/parallax.min.js"></script>
 	<script src="{{ site.baseurl }}/assets/js/vendor/zoom.js"></script>
 	<script src="{{ site.baseurl }}/assets/js/main.js"></script>
 	<script>

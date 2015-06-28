@@ -2,6 +2,7 @@
 header
 ---------------------------------------------------------------------------------------------------- */
 header {
+	@include transition(all 1.0s $ease-out-quint);
 
 	&.header {
 		position: fixed;
@@ -11,7 +12,7 @@ header {
 		width: 100%;
 		background: rgba(34, 34, 34, 0.0);
 		// background: #222;
-		padding: 20px 12.5%;
+		padding: 10px 12.5%;
 		@include box-sizing(border-box);
 	}
 	&.header-down {
@@ -21,12 +22,23 @@ header {
 	}
 	&.header-up {}
 
+
+	a {
+		color: #fff;
+		text-shadow: 1px 1px 1px #000, -1px -1px 1px #000;
+		@include transition(all 0.2s $ease-out-quint);
+
+		&:hover,
+		&.selected {color: $accent-color;}
+	}
+
 	nav.brand {
 		float: left;
 
 		a {
 			float: left;
 			margin-right: 20px;
+
 			// text-transform: uppercase;
 
 			[class^="icon-"] {
