@@ -23,16 +23,19 @@ div#load_screen > div#loading{
 	left: 50%;
 	top: 50%;
 	@include transform(translate(-50%, -50%));
-	@include animation(rotata 1.0s ease-in);
+
+	.gigantic {
+	@include animation(rotata 0.45s ease-in infinite);
+	}
 }
 
 
 
 @include keyframes(rotata) {
 	from {
-		@include transform(translateZ(0));
+		@include transform(rotateY(0deg));
 	}
 	to {
-		@include transform(translateZ(100%));
+		@include transform(rotateY(180deg));
 	}
 }
