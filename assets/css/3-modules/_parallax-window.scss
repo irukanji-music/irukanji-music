@@ -3,14 +3,15 @@ parallax window
 ---------------------------------------------------------------------------------------------------- */
 .parallax-window {
 	position: relative;
-	height: 50%;
+	height: 40%;
 	background: transparent;
+	overflow: hidden;
 
 	&:after {
 		position: absolute;
 		content: '';
 		left: 0;
-		top: 0;
+		top: -100%;
 		right: 0;
 		bottom: 0;
 		background-image:
@@ -47,3 +48,4 @@ parallax window
 	}
 
 }
+
