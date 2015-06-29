@@ -12,47 +12,81 @@ header {
 		width: 100%;
 		background: rgba(34, 34, 34, 0.0);
 		// background: #222;
-		padding: 10px 12.5%;
+		padding: 0 12.5%;
 		@include box-sizing(border-box);
+
+		&.header-down {
+			float: left;
+			padding: 0 2.5%;
+			background: rgba(34, 34, 34, 1.0);
+		}
+		&.header-up {}
 	}
-	&.header-down {
-		float: left;
-		padding: 10px 2.5%;
-		background: rgba(34, 34, 34, 1.0);
-	}
-	&.header-up {}
 
 
 	a {
+		padding: 10px 12px;
+		line-height: 22px;
+		display: inline-block;
 		color: #fff;
-		text-shadow: 1px 1px 1px #000, -1px -1px 1px #000;
+		text-shadow: 1px 1px 11px #000, -1px -1px 1px #000;
 		@include transition(all 0.75s $ease-out-quint);
 
 		&:hover,
-		&.selected {color: $accent-color;}
+		&.selected {
+			color: $accent-color;
+			text-shadow: 1px 1px 1px #000, -1px -1px 11px #000;
+		}
 	}
 
 	nav.brand {
 		float: left;
 
 		a {
-			float: left;
-			margin-right: 20px;
-
-			// text-transform: uppercase;
 
 			[class^="icon-"] {
-				// font-size: 20px;
-				// position: relative;
-				// top: 2px;
+				float: left;
+				font-size: 22px;
+				// line-height: 1px;
+				position: relative;
+				// top: 6px;
+				margin-right: 10px;
 			}
+
+			i {
+				float: left;
+				font-style: normal;
+				font-size: 12px;
+				position: relative;
+				top: 2px;
+				text-transform: uppercase;
+			}
+
 		}
 	}
 	nav.social {
 		float: right;
 
 		a {
-			margin-left: 20px;
+			// font-size: 8px;
+			// line-height: 17px;
+			// margin-left: 20px;
+
+			[class^="icon-"] {
+				float: left;
+				font-size: 22px;
+				// line-height: 1px;
+				position: relative;
+				// top: 6px;
+				margin-right: 10px;
+			}
+
+			i {
+				float: left;
+				font-style: normal;
+				font-size: 10px;
+			}
+
 		}
 	}
 
@@ -60,6 +94,6 @@ header {
 
 .zoom-overlay-open {
 	header.header {
-
+		@include transform(translateY(-100%));
 	}
 }

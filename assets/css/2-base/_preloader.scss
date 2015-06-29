@@ -12,8 +12,27 @@ div#load_screen{
 	height: 100%;
 }
 div#load_screen > div#loading{
-	color: #fff;
-	width: 120px;
-	height: 24px;
-	margin: 300px auto;
+	// color: #fff;
+	// width: 120px;
+	text-align: center;
+	// height: 24px;
+	// margin: 300px auto;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	@include transform(translate(-50%, -50%));
+	@include animation(rotata 1.0s ease-in);
+}
+
+
+
+@include keyframes(rotata) {
+	from {
+		@include transform(translateZ(0));
+	}
+	to {
+		@include transform(translateZ(100%));
+	}
 }
