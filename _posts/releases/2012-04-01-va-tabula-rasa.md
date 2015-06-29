@@ -20,4 +20,16 @@ bandcamp-track: 3231222167
 discogs: http://www.discogs.com/Various-Tabula-Rasa/release/3618811
 ---
 
+Tracklist:
 
+01. Irukanji – Incident (Intro) 110bpm
+02. Atomas – Buenas Noches148bpm
+03. Ablepsia (Feat. Ahankara) – Alien Worlds 148bpm
+04. Fractal Error – Theros 151bpm
+05. Parus – LaBoom 148bpm
+06. Zeus Drops – The Thing 152bpm
+07. Greg On Earth & Digitalist – Diggers Defunct 154bpm
+08. Digitalist – Swaying Yang 152bpm
+09. Already Maged – Witches On Afflatus 151bpm
+10. Biosynthesis – A.Ruless 150bpm
+11. Irukanji – Somnimonia (Outro) 120bpm
