@@ -1,0 +1,122 @@
+/* ----------------------------------------------------------------------------------------------------
+index head
+---------------------------------------------------------------------------------------------------- */
+.index-head {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	text-align: center;
+	background: #000 url(/assets/img/header-bg.jpg) center no-repeat;
+	background-size: cover;
+
+	.content {
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		
+		hgroup {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			@include transform(translate(-50%, -50%));
+			display: inline-block;
+			// border: 10px solid #fff;
+			// background: rgba(0,0,0,.5);
+			text-shadow: 1px 1px 1px #000, -1px -1px 11px #000;
+			padding: 30px 60px;
+
+			h1 {
+				font-size: 100px;
+				color: #fff;
+				margin: 0;
+				letter-spacing: 14px;
+			}
+
+			h2 {
+				font-size: 20px;
+				color: #fff;
+				margin: 0 0 20px;
+				letter-spacing: 7px;
+			}
+		}
+	}
+
+	.overlay {
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		// background: #000 url(/assets/img/header-bg.jpg) center no-repeat;
+		// background-size: cover;
+		background: #000;
+		z-index: 0;
+		opacity: 0;
+	}
+
+}
+
+/* ----------------------------------------------------------------------------------------------------
+index releases
+---------------------------------------------------------------------------------------------------- */
+.index-releases {
+	height: auto;
+	width: 100%;
+	position: relative;
+	// text-align: left;
+	text-align: center;
+	padding: 60px 0;
+
+	h2 {
+		margin-bottom: 60px;
+	}
+
+	.isotope-container {
+		margin-bottom: 40px;
+
+		article.isotope-item {
+			float: left;
+			width: 33.333333333333333%;
+			// width: 25%;
+			margin-bottom: 40px;
+			padding: 0 20px;
+			display: block;
+			@include box-sizing(border-box);
+
+			.image-contour {
+				// float: left;
+				// margin-right: 20px;
+				display: block;
+				overflow: hidden;
+				margin-bottom: 20px;
+
+				img {
+					// max-width: 200px;
+					width: 100%;
+					display: block;
+					@include transition(all 3.0s $ease-out-quint);
+					@include transform(scale(1.0) translateZ(0));
+				}
+
+			}
+
+			.title {
+				margin: 0 0 10px;
+				font-size: 22px;
+				line-height: 1.4;
+				font-weight: 700;
+				letter-spacing: 1px;
+				text-transform: uppercase;
+			}
+			&:hover {
+				img {
+						@include transform(scale(1.2));
+				}
+			}
+		}
+
+	}
+
+}

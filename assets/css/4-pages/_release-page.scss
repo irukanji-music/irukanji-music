@@ -11,24 +11,3 @@ article.release-page {
 	}
 
 }
-
-.parallax-window {
-	position: relative;
-	height: 50%;
-	// min-height: 400px;
-	background: transparent;
-
-	&:after {
-		position: absolute;
-		content: '';
-		left: 0;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		background-image:
-			radial-gradient(circle at 25% 25%, #000 10%, transparent 15%),
-			radial-gradient(circle at 75% 75%, #000 10%, transparent 15%);
-		background-size: 5px 5px;
-	}
-
-}

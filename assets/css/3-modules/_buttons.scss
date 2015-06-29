@@ -1,0 +1,30 @@
+/* ----------------------------------------------------------------------------------------------------
+buttons
+---------------------------------------------------------------------------------------------------- */
+a.button {
+	display: inline-block;
+	border: 2px solid $accent-color;
+	padding: 18px 26px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 18px;
+	letter-spacing: 1px;
+
+	[class^="icon-"] {
+		float: left;
+		font-size: 24px;
+		margin-right: 12px;
+		position: relative;
+		top: 1px;
+	}
+
+	&:hover {
+		color: $link-color-hover;
+		border-color: $link-color-hover;
+	}
+
+	&:active {
+		
+	}
+
+}

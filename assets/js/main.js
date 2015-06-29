@@ -22,8 +22,8 @@ $( document ).ready(function() {
 /**
  * Cache
  */
-var $content = $('.parallax-index .content')
-	, $blur    = $('.parallax-index .overlay')
+var $content = $('.index-head .content')
+	, $blur    = $('.index-head .overlay')
 	, wHeight  = $(window).height();
 
 $(window).on('resize', function(){

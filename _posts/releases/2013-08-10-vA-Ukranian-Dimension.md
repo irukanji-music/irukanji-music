@@ -20,3 +20,16 @@ bandcamp-track: 204260206
 discogs: http://www.discogs.com/Ablepsia-Ukranian-Dimension/release/4833250
 ---
 
+Tracklist:
+
+01. Tookytooky – Acid Rabbit146bpm
+02. Shivattva – Something More148bpm
+03. Roof Raiser – Quantum Jump148bpm
+04. Oxygenating Project - Alien Technology150bpm
+05. Shivattva, Irukanji and Overdream - Lost in Teleportation148bpm
+06. Cifroteca – Spoe148bpm
+07. Ablepsia – Pad Planet (2009 Year Production)151bpm
+08. Already Maged – Own Shadow Dissapear150bpm
+09. Calamus – Darkness Drops (Skogarna rmx)150bpm
+10. Prok – Fi Zero145bpm
+11. Shiva3 – Another Dimension148bpm

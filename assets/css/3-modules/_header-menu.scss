@@ -1,7 +1,7 @@
 /* ----------------------------------------------------------------------------------------------------
 header
 ---------------------------------------------------------------------------------------------------- */
-header {
+header.header {
 	@include transition(all 1.0s $ease-out-quint);
 
 	&.header {
@@ -12,7 +12,7 @@ header {
 		width: 100%;
 		background: rgba(34, 34, 34, 0.0);
 		// background: #222;
-		padding: 0 12.5%;
+		padding: 0 10%;
 		@include box-sizing(border-box);
 
 		&.header-down {
@@ -30,11 +30,10 @@ header {
 		display: inline-block;
 		color: #fff;
 		text-shadow: 1px 1px 11px #000, -1px -1px 1px #000;
-		@include transition(all 0.75s $ease-out-quint);
 
 		&:hover,
 		&.selected {
-			color: $accent-color;
+			color: $link-color;
 			text-shadow: 1px 1px 1px #000, -1px -1px 11px #000;
 		}
 	}
@@ -82,9 +81,12 @@ header {
 			}
 
 			i {
+				// display: none;
 				float: left;
 				font-style: normal;
 				font-size: 10px;
+				// text-transform: uppercase;
+				letter-spacing: -0.5px;
 			}
 
 		}

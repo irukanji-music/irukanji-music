@@ -62,11 +62,13 @@ a {
 	color: $link-color;
 	text-decoration: none;
 	outline: 0;
-}
-a:hover, a:focus {
-	color: lighten($link-color, 20%);
-}
+	@include transition(all 0.75s $ease-out-quint);
 
+	&:hover,
+	&:focus {
+		color: $link-color-hover;
+	}
+}
 
 // Selection colors (easy to forget)
 ::selection {

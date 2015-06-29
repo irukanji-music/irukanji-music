@@ -4,6 +4,7 @@ sidebar
 aside {
 	.isotope-container {
 		margin-bottom: 10px;
+
 		article.isotope-item {
 			float: left;
 			width: 100%;
@@ -13,11 +14,21 @@ aside {
 
 			.image-contour {
 				float: left;
+				overflow: hidden;
+				margin-right: 10px;
+
 				img {
 					max-width: 60px;
-					margin-bottom: 0;
-					margin-right: 10px;
-					// width: 100%;
+					display: block;
+					margin: 0;
+					@include transition(all 3.0s $ease-out-quint);
+					@include transform(scale(1.0) translateZ(0));
+				}
+			}
+
+			&:hover {
+				img {
+					@include transform(scale(1.2));
 				}
 			}
 		}

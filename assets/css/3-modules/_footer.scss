@@ -3,10 +3,12 @@ footer
 ---------------------------------------------------------------------------------------------------- */
 footer {
 	height: auto;
+	// min-width: 50%;
 	width: 100%;
 	position: relative;
 	text-align: center;
-	padding: 40px 0;
+	padding: 60px 0 100px;
+	// @include box-sizing(border-box);
 
 	nav.contact {
 		margin-bottom: 20px;
@@ -20,7 +22,7 @@ footer {
 		}
 	}
 
-	p {
+	p.copyright {
 		margin: 0;
 	}
 

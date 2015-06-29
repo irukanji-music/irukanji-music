@@ -1,41 +1,37 @@
 ---
 layout: default
-titleAfter: Psychedelic Electronica Music
-meta: Irukanji - psychedelic music project from Kyiv, Ukraine
-keywords: 
+title: Discography
+meta: Discography of Irukanji
+keywords: discography, releases, compilations, albums
 permalink: /discography/
 ---
 
-<div class="parallax-window" data-parallax="scroll" data-image-src="{{ site.baseurl }}/assets/img/release-bg.jpg"></div>
+<div class="parallax-window" data-parallax="scroll" data-image-src="{{ site.baseurl }}/assets/img/release-bg.jpg">
+	<h1><span class="icon-discogs"></span> Discography</h1>
+</div>
 
-<section class="releases">
-
+<section class="index-releases">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-sm-8 col-sm-offset-2">
 
-				<h2>Discography</h2>
-
 				<div class="isotope-container">
-
 					{% for releases in site.categories.releases %}
-						<article class="isotope-item">
-							<a href="{{ site.baseurl }}{{ releases.url }}">
-								<div class="image-contour">
-									<img src="{{ site.baseurl }}/assets/img/releases/{{ releases.release-id }}-sq.jpg" alt="{{ releases.title }}">
-								</div>
-								<h3>{{ releases.title }}</h3>
-								<div>{{ releases.label }}</div>
-								<!-- <div>{{ releases.date | date: "%-d %B %Y" }}</div> -->
-							</a>
-						</article>
+					<article class="isotope-item">
+						<a href="{{ site.baseurl }}{{ releases.url }}">
+							<div class="image-contour">
+								<img src="{{ site.baseurl }}/assets/img/releases/{{ releases.release-id }}-sq.jpg" alt="{{ releases.title }}">
+							</div>
+							<div class="title">{{ releases.title }}</div>
+							<div>{{ releases.label }}</div>
+							<!-- <div>{{ releases.date | date: "%-d %B %Y" }}</div> -->
+						</a>
+					</article>
 					{% endfor %}
-
 				</div>
 
 			</div>
 		</div>
 	</div>
-
 </section>
 

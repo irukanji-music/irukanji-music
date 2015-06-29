@@ -20,3 +20,16 @@ bandcamp-track: 52697559
 discogs: 
 ---
 
+Tracklist:
+
+01. Irukanji (Intro) – Freedom Fighters 120bpm
+02. Roof Raiser – Junk Keeper 147bpm
+03. Overdream - Backwards Projector 150bpm
+04. Atomental – Destination Unknowed154bpm
+05. Digitalist Feat. Kyros, Tripadvisor & Friends - Psychedelic Creativity 155bpm
+06. Bodhi Feat. Braindrop - Talking in Technicolor155bpm
+07. Tromo – Ion Core 154bpm
+08. Yara - Ultraterrestres 154bpm
+09. Malkaviam – In 2 Another Dimension 150bpm
+10. Blisargon Demogorgon – Space Invaders 152bpm
+11. Irukanji (Outro) – Kremlin Invaders 120bpm
