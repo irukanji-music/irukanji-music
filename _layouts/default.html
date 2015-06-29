@@ -23,7 +23,7 @@
 	<header class="header">
 		<nav class="brand">
 			<a href="{{ site.baseurl }}/" class="{% if page.url == '/' %}selected{% endif %}"><span class="icon-deer"></span> Irukanji</a>
-			<a href="{{ site.baseurl }}/discography" class="{% if page.url contains 'discography' %}selected{% endif %}"><span class="icon-discogs"></span> Discography</a>
+			<a href="{{ site.baseurl }}/discography" class="{% if page.url contains 'discography' or page.url contains 'release' %}selected{% endif %}"><span class="icon-discogs"></span> Discography</a>
 		</nav>
 		<nav class="social">
 			<!-- <span>Follow Irukanji:</span> -->

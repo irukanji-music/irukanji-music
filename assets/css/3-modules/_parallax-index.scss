@@ -36,7 +36,8 @@ parallax index
 			position: absolute;
 			top: 50%;
 			left: 50%;
-			transform: translate(-50%, -50%);
+			// transform: translate(-50%, -50%);
+			@include transform(translate(-50%, -50%));
 			display: inline-block;
 			border: 10px solid #fff;
 			padding: 30px 60px;

@@ -14,7 +14,7 @@ permalink: /
 		<div class="row">
 			<div class="col-sm-8 col-sm-offset-2">
 
-				<h2>Discography:</h2>
+				<h2>Discography</h2>
 
 				<div class="isotope-container">
 
@@ -25,23 +25,7 @@ permalink: /
 									<img src="{{ site.baseurl }}/assets/img/releases/{{ releases.release-id }}-th.jpg" alt="{{ releases.title }}">
 								</div>
 								<h3>{{ releases.title }}</h3>
-								<!-- <div>{{ releases.label }}</div> -->
-								<!-- <div>{{ releases.date | date: "%-d %B %Y" }}</div> -->
 							</a>
-
-							<section>
-								<div><small>layout</small> {{ releases.layout }}</div>
-								<div><small>id</small> {{ releases.id }}</div>
-								<div><small>date</small> {{ releases.date | date: "%-d %B %Y" }}</div>
-								<div><small>title</small> {{ releases.title }}</div>
-								<div><small>meta</small> {{ releases.meta }}</div>
-								<div><small>keywords</small> {{ releases.keywords }}</div>
-								<div><small>category</small> {{ releases.category }}</div>
-								<div><small>permalink</small> {{ releases.permalink }}</div>
-								<div><small>release-id</small> {{ releases.release-id }}</div>
-								<div><small>label</small> {{ releases.label }}</div>
-								<div><small>ektoplazm</small> {{ releases.ektoplazm }}</div>
-							</section>
 
 						</article>
 					{% endfor %}
