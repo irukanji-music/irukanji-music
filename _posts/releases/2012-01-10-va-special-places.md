@@ -17,6 +17,9 @@ label-bandcamp: sentimony.bandcamp.com/album/va-special-places
 bandcamp-album: 2563369517
 bandcamp-track: 430811055
 
+bandcamp-lable-album: 
+bandcamp-lable-track: 
+
 discogs: http://www.discogs.com/AstroPilot-Special-Places/release/3517621
 ---
 

@@ -17,6 +17,9 @@ label-bandcamp: sentimony.bandcamp.com/album/va-emptinesses
 bandcamp-album: 2563369517
 bandcamp-track: 2357902888
 
+bandcamp-lable-album: 
+bandcamp-lable-track: 
+
 discogs: http://www.discogs.com/Various-Emptinesses/release/1021635
 ---
 

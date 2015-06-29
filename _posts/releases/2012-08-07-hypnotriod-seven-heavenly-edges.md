@@ -17,6 +17,9 @@ label-bandcamp: sentimony.bandcamp.com/album/hypnotriod-seven-heavenly-edges
 bandcamp-album: 2563369517
 bandcamp-track: 3570631252
 
+bandcamp-lable-album: 
+bandcamp-lable-track: 
+
 discogs: http://www.discogs.com/Hypnotriod-Seven-Heavenly-Edges/release/3618882
 ---
 

@@ -17,11 +17,7 @@ data-image-src="{{ site.baseurl }}/assets/img/releases/{{ page.release-id }}-sq.
 
 						<img src="{{ site.baseurl }}/assets/img/releases/{{ page.release-id }}-sq.jpg" alt='{{ page.title }}' data-action="zoom">
 
-						<p>
-							<div>Title: {{ page:title }}</div>
-							<div>Label: {{ page.label }}</div>
-							<div>Release Date: {{ page.date | date: "%-d %B %Y" }}</div>
-
+						<section>
 							{% if page.label-link %}
 							<div>Official <a href="http://{{ page.label-link }}" target="_blank">Release Page</a></div>
 							{% endif %}
@@ -29,46 +25,55 @@ data-image-src="{{ site.baseurl }}/assets/img/releases/{{ page.release-id }}-sq.
 							{% if page.label-bandcamp %}
 							<div>Support Label on <a href="http://{{ page.label-bandcamp }}" target="_blank"><span class="icon-bandcamp"></span> bandcamp</a></div>
 							{% endif %}
-						</p>
+						</section>
 
-						<p><span class="icon-spiral2"></span></p>
+						<section><span class="icon-spiral2"></span></section>
 
-						<p>
-							{% if page.ektoplazm %}
-							<div>Download release from <a href="http://www.ektoplazm.com/{{ page.ektoplazm }}" target="_blank">ektoplazm</a> (mp3, flac, wav)</div>
-							{% endif %}
+						{{ content }}
 
+						<section><span class="icon-spiral2"></span></section>
+
+						<section>
 							{% if page.discogs %}
 							<div>More release info on <a href="{{ page.discogs }}" target="_blank"><span class="icon-discogs"></span> discogs</a></div>
 							{% endif %}
-						</p>
 
-						{{ content }}
+							{% if page.ektoplazm %}
+							<div>Download release from <a href="http://www.ektoplazm.com/{{ page.ektoplazm }}" target="_blank">ektoplazm</a> (mp3, flac, wav)</div>
+							{% endif %}
+						</section>
 
 					</div>
 					<div class="col-sm-6">
 
-						{% if page.bandcamp-album %}
+						<section>
+							<div>Title: {{ page:title }}</div>
+							<div>Label: {{ page.label }}</div>
+							<div>Release Date: {{ page.date | date: "%-d %B %Y" }}</div>
+						</section>
 
-						<p>Download music for free (mp3, flac, wav) and make donates to Irukanji using <a href="https://irukanji.bandcamp.com" target="_blank"><span class="icon-bandcamp"></span> bandcamp</a>. Huge thanks for your support!</p>
+						<section><span class="icon-spiral2"></span></section>
 
-						<iframe style="border: 0; width: 100%; height: 900px;" src="https://bandcamp.com/EmbeddedPlayer/album={{ page.bandcamp-album }}/size=large/bgcol=333333/linkcol=8ff/artwork=small/{% if page.bandcamp-track %}track={{ page.bandcamp-track }}/{% endif %}transparent=true/" seamless></iframe>
-
-						{% endif %}
+						<section>Download music for free (mp3, flac, wav) and make donates to Irukanji using <a href="https://irukanji.bandcamp.com" target="_blank"><span class="icon-bandcamp"></span> bandcamp</a>. Huge thanks for your support!</section>
 
 						{% if page.bandcamp-track %}
 
-						<p>Download music for free (mp3, flac, wav) and make donates to Irukanji using <a href="https://irukanji.bandcamp.com" target="_blank"><span class="icon-bandcamp"></span> bandcamp</a>. Huge thanks for your support!</p>
-
-						<iframe style="border: 0; width: 320px; height: 82px;" src="http://bandcamp.com/EmbeddedPlayer/v=2/track={{ page.bandcamp-track }}/layout=http_3A_2F_2Firukanji-music.github.io_2Fassets_2Ftrack.txt/bgcol=333333/linkcol=88ffff/debug=true/" allowtransparency="true" frameborder="0"></iframe>
+						<section><iframe style="border: 0; width: 320px; height: 82px; display: block;" src="http://bandcamp.com/EmbeddedPlayer/v=2/track={{ page.bandcamp-track }}/layout=http_3A_2F_2Firukanji-music.github.io_2Fassets_2Ftrack.txt/bgcol=222/linkcol=88ffff/debug=true/" allowtransparency="true" frameborder="0"></iframe></section>
 
 						{% if page.bandcamp-track2 %}
 
-						<iframe style="border: 0; width: 320px; height: 82px;" src="http://bandcamp.com/EmbeddedPlayer/v=2/track={{ page.bandcamp-track2 }}/layout=http_3A_2F_2Firukanji-music.github.io_2Fassets_2Ftrack.txt/bgcol=333333/linkcol=88ffff/debug=true/" allowtransparency="true" frameborder="0"></iframe>
+						<section><iframe style="border: 0; width: 320px; height: 82px; display: block;" src="http://bandcamp.com/EmbeddedPlayer/v=2/track={{ page.bandcamp-track2 }}/layout=http_3A_2F_2Firukanji-music.github.io_2Fassets_2Ftrack.txt/bgcol=222/linkcol=88ffff/debug=true/" allowtransparency="true" frameborder="0"></iframe></section>
 
 						{% endif %}
 
 						{% endif %}
+
+						{% if page.bandcamp-lable-album %}
+
+						<section><iframe style="border: 0; width: 100%; height: 478px; display: block;" src="https://bandcamp.com/EmbeddedPlayer/album={{ page.bandcamp-lable-album }}/size=large/bgcol=333333/linkcol=8ff/artwork=small/{% if page.bandcamp-lable-track %}track={{ page.bandcamp-track }}/{% endif %}transparent=true/" seamless></iframe></section>
+
+						{% endif %}
+
 					</div>
 				</div>
 

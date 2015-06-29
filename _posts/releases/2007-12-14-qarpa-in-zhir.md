@@ -17,6 +17,9 @@ label-bandcamp:
 bandcamp-album: 2563369517
 bandcamp-track: 
 
+bandcamp-lable-album: 
+bandcamp-lable-track: 
+
 discogs: http://www.discogs.com/Qarpa-In-Zhir/release/1171759
 ---
 

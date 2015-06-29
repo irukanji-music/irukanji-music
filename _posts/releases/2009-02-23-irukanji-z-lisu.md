@@ -17,6 +17,9 @@ label-bandcamp: sentimony.bandcamp.com/album/irukanji-z-lisu
 bandcamp-album: 2581336461
 bandcamp-track: 
 
+bandcamp-lable-album: 2581336461
+bandcamp-lable-track: 
+
 discogs: http://www.discogs.com/Irukanji-Z-Lisu/release/1664941
 ---
 

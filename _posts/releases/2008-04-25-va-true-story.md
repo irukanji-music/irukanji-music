@@ -17,6 +17,9 @@ label-bandcamp: sentimony.bandcamp.com/album/va-true-story
 bandcamp-album: 2563369517
 bandcamp-track: 2577162539
 
+bandcamp-lable-album: 
+bandcamp-lable-track: 
+
 discogs: http://www.discogs.com/Various-True-Story/release/1321723
 ---
 

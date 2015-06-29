@@ -17,6 +17,9 @@ label-bandcamp: sentimony.bandcamp.com/album/va-absence-of-gravity
 bandcamp-album: 2563369517
 bandcamp-track: 807150293
 
+bandcamp-lable-album: 
+bandcamp-lable-track: 
+
 discogs: http://www.discogs.com/Various-Absence-Of-Gravity/release/2820972
 ---
 

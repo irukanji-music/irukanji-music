@@ -18,6 +18,9 @@ bandcamp-album: 2563369517
 bandcamp-track: 52697559
 bandcamp-track2: 2114718806
 
+bandcamp-lable-album: 
+bandcamp-lable-track: 
+
 discogs: 
 ---
 

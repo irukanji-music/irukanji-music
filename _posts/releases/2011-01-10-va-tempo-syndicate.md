@@ -17,6 +17,9 @@ label-bandcamp: sentimony.bandcamp.com/album/va-tempo-syndicate
 bandcamp-album: 2563369517
 bandcamp-track: 2080900690
 
+bandcamp-lable-album: 
+bandcamp-lable-track: 
+
 discogs: http://www.discogs.com/Various-Tempo-Syndicate/release/2645251
 ---
 
