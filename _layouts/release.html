@@ -49,34 +49,26 @@ data-image-src="{{ site.baseurl }}/assets/img/releases/{{ page.release-id }}-sq.
 					<div class="col-sm-6">
 
 						{% if page.bandcamp-album %}
-						<!-- <p>Download music for free (mp3, flac, wav) and make donates to Irukanji using <a href="https://irukanji.bandcamp.com" target="_blank"><span class="icon-bandcamp"></span> bandcamp</a>. Huge thanks for your support!</p>
 
-						<iframe style="border: 0; width: 100%; height: 900px;" src="https://bandcamp.com/EmbeddedPlayer/album={{ page.bandcamp-album }}/size=large/bgcol=333333/linkcol=8ff/artwork=small/{% if page.bandcamp-track %}track={{ page.bandcamp-track }}/{% endif %}transparent=true/" seamless></iframe> -->
+						<p>Download music for free (mp3, flac, wav) and make donates to Irukanji using <a href="https://irukanji.bandcamp.com" target="_blank"><span class="icon-bandcamp"></span> bandcamp</a>. Huge thanks for your support!</p>
+
+						<iframe style="border: 0; width: 100%; height: 900px;" src="https://bandcamp.com/EmbeddedPlayer/album={{ page.bandcamp-album }}/size=large/bgcol=333333/linkcol=8ff/artwork=small/{% if page.bandcamp-track %}track={{ page.bandcamp-track }}/{% endif %}transparent=true/" seamless></iframe>
+
 						{% endif %}
 
 						{% if page.bandcamp-track %}
+
 						<p>Download music for free (mp3, flac, wav) and make donates to Irukanji using <a href="https://irukanji.bandcamp.com" target="_blank"><span class="icon-bandcamp"></span> bandcamp</a>. Huge thanks for your support!</p>
 
-<!-- <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2563369517/size=small/bgcol=333333/linkcol=0f91ff/track=52697559/transparent=true/" seamless><a href="http://irukanji.bandcamp.com/album/from-compilations">From Compilations by Irukanji</a></iframe>
+						<iframe style="border: 0; width: 320px; height: 82px;" src="http://bandcamp.com/EmbeddedPlayer/v=2/track={{ page.bandcamp-track }}/layout=http_3A_2F_2Firukanji-music.github.io_2Fassets_2Ftrack.txt/bgcol=333333/linkcol=88ffff/debug=true/" allowtransparency="true" frameborder="0"></iframe>
 
-<iframe style="border: 0; width: 100%; height: 220px;" src="https://bandcamp.com/EmbeddedPlayer/size=large/bgcol=333333/linkcol=8ff/artwork=small/tracklist=false/{% if page.bandcamp-track %}track={{ page.bandcamp-track }}/{% endif %}transparent=true/" seamless></iframe>
+						{% if page.bandcamp-track2 %}
 
-<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2563369517/size=large/bgcol=333333/linkcol=8ff/tracklist=false/artwork=small/track=2114718806/transparent=true/" seamless></iframe> -->
-
-<iframe style="border: 0; width: 100%; height: 82px;" src="http://bandcamp.com/EmbeddedPlayer/v=2/track=52697559/layout=http_3A_2F_2Firukanji-music.github.io_2Fassets_2Ftrack.txt/bgcol=333333/linkcol=88ffff/debug=true/" allowtransparency="true" frameborder="0"></iframe>
-
-<iframe style="border: 0; width: 100%; height: 82px;" src="http://bandcamp.com/EmbeddedPlayer/v=2/track=2114718806/layout=http_3A_2F_2Firukanji-music.github.io_2Fassets_2Ftrack.txt/bgcol=333333/linkcol=88ffff/debug=true/" allowtransparency="true" frameborder="0"></iframe>
-
+						<iframe style="border: 0; width: 320px; height: 82px;" src="http://bandcamp.com/EmbeddedPlayer/v=2/track={{ page.bandcamp-track2 }}/layout=http_3A_2F_2Firukanji-music.github.io_2Fassets_2Ftrack.txt/bgcol=333333/linkcol=88ffff/debug=true/" allowtransparency="true" frameborder="0"></iframe>
 
 						{% endif %}
 
-
-<!-- http_3A_2F_2Firukanji-music.github.io_2Fassets_2Ftrack.txt
-http://irukanji-music.github.io/assets/track.txt
-
-http_3A_2F_2Flocalhost_3A2525_2Fassets_2Ftrack.txt
-http://localhost:2525/assets/track.txt -->
-
+						{% endif %}
 					</div>
 				</div>
 
