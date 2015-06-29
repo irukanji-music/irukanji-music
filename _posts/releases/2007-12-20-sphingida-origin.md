@@ -13,6 +13,7 @@ label: Sentimony Records
 ektoplazm: free-music/sphingida-origin
 label-link: sentimony.com/release/sphingida-origin
 label-bandcamp: sentimony.bandcamp.com/album/sphingida-origin
+label-bandcamp-id: 3680718383
 
 bandcamp-album: 728290111
 bandcamp-track: 

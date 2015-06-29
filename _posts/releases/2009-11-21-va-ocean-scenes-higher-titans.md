@@ -13,6 +13,7 @@ label: Aqua Deep Music
 ektoplazm: free-music/ocean-scenes-higher-titans
 label-link: aquadeepmusic.com/release/adcd01
 label-bandcamp: aquadeep.bandcamp.com/album/va-ocean-scenes-higher-titans
+label-bandcamp-id: 3486103233
 
 bandcamp-album: 2563369517
 bandcamp-track: 3077453451

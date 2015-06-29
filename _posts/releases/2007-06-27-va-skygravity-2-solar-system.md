@@ -13,6 +13,7 @@ label: Skygravity Records
 ektoplazm: 
 label-link: 
 label-bandcamp: 
+label-bandcamp-id: 
 
 bandcamp-album: 2563369517
 bandcamp-track: 

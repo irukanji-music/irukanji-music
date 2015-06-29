@@ -14,4 +14,26 @@ article.release-page {
 		margin: 0 0 20px;
 	}
 
+	div.donate-me {
+		background-color: $bg-color;
+		$bg-color-gradient: lighten($bg-color, 20%);
+		background-image: repeating-radial-gradient(circle at 50% 50%, $bg-color-gradient 50%, transparent 55%);
+		background-size: 30px 30px;
+
+		padding: 20px;
+		margin: 0 0 20px;
+		border: 1px solid #4E4E4E;
+		@include box-sizing(border-box);
+
+		iframe {
+			display: block;
+			width: 100%;
+			overflow: hidden;
+			max-width: 320px;
+			border: 1px solid #4E4E4E;
+			@include box-sizing(border-box);
+		}
+
+	}
+
 }

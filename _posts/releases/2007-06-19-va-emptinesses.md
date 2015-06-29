@@ -13,6 +13,7 @@ label: Sentimony Records
 ektoplazm: free-music/emptinesses
 label-link: sentimony.com/release/va-emptinesses
 label-bandcamp: sentimony.bandcamp.com/album/va-emptinesses
+label-bandcamp-id: 2938863422
 
 bandcamp-album: 2563369517
 bandcamp-track: 2357902888

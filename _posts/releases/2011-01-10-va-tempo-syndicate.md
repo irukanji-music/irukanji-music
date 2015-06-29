@@ -13,6 +13,7 @@ label: Sentimony Records
 ektoplazm: free-music/tempo-syndicate
 label-link: sentimony.com/release/va-tempo-syndicate
 label-bandcamp: sentimony.bandcamp.com/album/va-tempo-syndicate
+label-bandcamp-id: 2483216888
 
 bandcamp-album: 2563369517
 bandcamp-track: 2080900690

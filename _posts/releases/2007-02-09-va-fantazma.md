@@ -13,6 +13,7 @@ label: Sentimony Records
 ektoplazm: free-music/fantazma
 label-link: sentimony.com/release/va-fantazma
 label-bandcamp: sentimony.bandcamp.com/album/va-fantazma
+label-bandcamp-id: 3399361938
 
 bandcamp-album: 2563369517
 bandcamp-track: 3110776069
