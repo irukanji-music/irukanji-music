@@ -25,7 +25,7 @@ div#load_screen > div#loading{
 	@include transform(translate(-50%, -50%));
 
 	.gigantic {
-	@include animation(rotata 0.45s ease-in infinite);
+	@include animation(rotata 1.25s linear infinite);
 	}
 }
 
@@ -36,6 +36,6 @@ div#load_screen > div#loading{
 		@include transform(rotateY(0deg));
 	}
 	to {
-		@include transform(rotateY(180deg));
+		@include transform(rotateY(360deg));
 	}
 }
