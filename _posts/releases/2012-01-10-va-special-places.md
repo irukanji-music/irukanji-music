@@ -5,7 +5,7 @@ title: VA «Special Places»
 meta: VA - Special Places by Sentimony Records
 keywords: VA Special Places, Sentimony Records
 
-og-image: release/va-special-places-og.jpg
+og-image: releases/va-special-places-og.jpg
 
 category: releases
 permalink: /release/va-special-places/

@@ -5,7 +5,7 @@ title: VA «Tempo Syndicate»
 meta: VA - Tempo Syndicate by Sentimony Records
 keywords: VA Tempo Syndicate, Sentimony Records
 
-og-image: release/va-tempo-syndicate-og.jpg
+og-image: releases/va-tempo-syndicate-og.jpg
 
 category: releases
 permalink: /release/va-tempo-syndicate/

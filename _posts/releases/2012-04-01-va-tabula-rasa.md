@@ -5,7 +5,7 @@ title: VA «Tabula Rasa»
 meta: VA - Tabula Rasa by Another Dimension Music
 keywords: VA Tabula Rasa, Another Dimension Music
 
-og-image: release/va-tabula-rasa-og.jpg
+og-image: releases/va-tabula-rasa-og.jpg
 
 category: releases
 permalink: /release/va-tabula-rasa/

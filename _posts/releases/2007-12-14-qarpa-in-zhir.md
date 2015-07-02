@@ -5,7 +5,7 @@ title: Qarpa «In Zhir»
 meta: Qarpa - In Zhir by ЯОК Music
 keywords: Qarpa, In Zhir, ЯОК Music
 
-og-image: release/qarpa-in-zhir-og.jpg
+og-image: releases/qarpa-in-zhir-og.jpg
 
 category: releases
 permalink: /release/qarpa-in-zhir/
