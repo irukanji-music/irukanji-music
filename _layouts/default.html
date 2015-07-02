@@ -15,6 +15,15 @@
 
 	<link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/img/favicons/favicon-32.png">
 
+	<meta property="og:title" content="{% if page.title %}{{ page.title }} · {% endif %}Irukanji{% if page.titleAfter %} · {{ page.titleAfter }}{% endif %}">
+	<meta property="og:description" content="{{page.meta}}">
+	<meta property="og:image" content="{{ site.baseurl }}/assets/img/bg-header.jpg">
+	<meta property="og:url" content="{{ site.baseurl }}{{ page.permalink }}">
+	<link rel="canonical" href="{{ site.baseurl }}{{ page.permalink }}">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:site_name" content="Irukanji">
+	<meta property="article:publisher" content="https://www.facebook.com/sentimony.records">
+	<!-- <meta property="og:type" content="article"> -->
 </head>
 <body class="header-waypoint" data-animate-down="header-down" data-animate-up="header-up">
 
