@@ -5,7 +5,7 @@ title: VA «True Story»
 meta: VA - True Story by Sentimony Records
 keywords: VA True Story, Sentimony Records
 
-og-image: 
+og-image: release/va-true-story-og.jpg
 
 category: releases
 permalink: /release/va-true-story

@@ -16,14 +16,15 @@
 	<link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/img/favicons/favicon-32.png">
 
 	<meta property="og:site_name" content="Irukanji Music">
-	<meta property="og:type" content="website">
-	<meta property="og:locale" content="en_US">
-	<meta property="article:publisher" content="https://www.facebook.com/sentimony.records">
 	<link rel="canonical" href="{{ site.basedomain }}{{ site.baseurl }}{{ page.permalink }}">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+	<meta property="article:author" content="https://www.facebook.com/profile.php?id=1617270694" />
+	<meta property="article:publisher" content="https://www.facebook.com/sentimony.records">
 
 	<meta property="og:title" content="{% if page.title %}{{ page.title }} · {% endif %}Irukanji Music{% if page.titleAfter %} · {{ page.titleAfter }}{% endif %}">
 	<meta property="og:description" content="{{ page.meta }}">
-	<meta property="og:image" content="{{ site.basedomain }}{{ site.baseurl }}/assets/img/index-og.jpg">
+	<meta property="og:image" content="{{ site.basedomain }}{{ site.baseurl }}/assets/img/{{ page.og-image }}">
 	<meta property="og:url" content="{{ site.basedomain }}{{ site.baseurl }}{{ page.permalink }}">
 </head>
 <body class="header-waypoint" data-animate-down="header-down" data-animate-up="header-up">

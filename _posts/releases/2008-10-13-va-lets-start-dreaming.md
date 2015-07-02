@@ -5,7 +5,7 @@ title: VA «Lets Start Dreaming»
 meta: VA - Lets Start Dreaming by High Hopes Records
 keywords: VA Lets Start Dreaming, High Hopes Records
 
-og-image: 
+og-image: release/va-lets-start-dreaming-og.jpg
 
 category: releases
 permalink: /release/va-lets-start-dreaming

@@ -5,7 +5,7 @@ title: VA «Audio Elastique»
 meta: VA - Audio Elastique by Another Dimension Music
 keywords: VA Audio Elastique, Another Dimension Music
 
-og-image: 
+og-image: release/va-audio-elastique-og.jpg
 
 category: releases
 permalink: /release/va-audio-elastique

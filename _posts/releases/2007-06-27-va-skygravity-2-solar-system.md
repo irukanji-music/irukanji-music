@@ -5,7 +5,7 @@ title: VA «Skygravity 2&#58; Solar System»
 meta: VA - Skygravity 2&#58; Solar System by Skygravity Records
 keywords: VA Skygravity 2 Solar System, Skygravity Records
 
-og-image: 
+og-image: release/va-skygravity-2-solar-system-og.jpg
 
 category: releases
 permalink: /release/va-skygravity-2-solar-system

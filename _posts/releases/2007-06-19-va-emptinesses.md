@@ -5,7 +5,7 @@ title: VA «Emptinesses»
 meta: VA - Emptinesses by Sentimony Records
 keywords: VA Emptinesses, Sentimony Records
 
-og-image: 
+og-image: release/va-emptinesses-og.jpg
 
 category: releases
 permalink: /release/va-emptinesses

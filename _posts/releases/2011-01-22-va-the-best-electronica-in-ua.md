@@ -5,7 +5,7 @@ title: VA «The Best Electronica In UA»
 meta: VA - The Best Electronica In UA by CTS Records
 keywords: VA The Best Electronica In UA, CTS Records
 
-og-image: 
+og-image: release/va-the-best-electronica-in-ua-og.jpg
 
 category: releases
 permalink: /release/va-the-best-electronica-in-ua

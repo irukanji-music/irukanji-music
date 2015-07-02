@@ -5,7 +5,7 @@ title: VA «Ukranian Dimension»
 meta: VA - Ukranian Dimension by Another Dimension Music
 keywords: VA Ukranian Dimension, Another Dimension Music
 
-og-image: 
+og-image: release/va-ukranian-dimension-og.jpg
 
 category: releases
 permalink: /release/va-ukranian-dimension
