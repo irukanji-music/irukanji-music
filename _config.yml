@@ -2,7 +2,7 @@
 baseurl: 
 markdown: kramdown
 permalink: pretty
-keywords: irukanji, psychedelic, electronic, free, download
+keywords: irukanji, psychedelic, electronic
 
 port: 2525
 
@@ -11,3 +11,6 @@ exclude: ['README.md']
 sass:
   sass_dir: assets/css
   style: :expanded
+
+# for og
+basedomain: http://irukanji-music.github.io

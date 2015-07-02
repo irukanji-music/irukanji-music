@@ -1,12 +1,14 @@
 ---
 layout: release
 
-title: VA "Absence Of Gravity"
+title: VA «Absence Of Gravity»
 meta: VA - Absence Of Gravity by Sentimony Records
 keywords: VA Absence Of Gravity, Sentimony Records
 
+og-image: 
+
 category: releases
-permalink: release/va-absence-of-gravity
+permalink: /release/va-absence-of-gravity
 release-id: va-absence-of-gravity
 
 label: Sentimony Records

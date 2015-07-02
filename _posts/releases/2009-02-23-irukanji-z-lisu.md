@@ -1,12 +1,14 @@
 ---
 layout: release
 
-title: Irukanji "Z Lisu"
+title: Irukanji «Z Lisu»
 meta: Irukanji - Z Lisu by Sentimony Records
 keywords: Z Lisu, Sentimony Records
 
+og-image: 
+
 category: releases
-permalink: release/irukanji-z-lisu
+permalink: /release/irukanji-z-lisu
 release-id: irukanji-z-lisu
 
 label: Sentimony Records

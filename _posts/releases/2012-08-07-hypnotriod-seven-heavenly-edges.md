@@ -1,12 +1,14 @@
 ---
 layout: release
 
-title: Hypnotriod "Seven Heavenly Edges"
+title: Hypnotriod «Seven Heavenly Edges»
 meta: Hypnotriod - Seven Heavenly Edges by Sentimony Records
 keywords: Hypnotriod, Seven Heavenly Edges, Sentimony Records
 
+og-image: 
+
 category: releases
-permalink: release/hypnotriod-seven-heavenly-edges
+permalink: /release/hypnotriod-seven-heavenly-edges
 release-id: hypnotriod-seven-heavenly-edges
 
 label: Sentimony Records

@@ -1,12 +1,14 @@
 ---
 layout: release
 
-title: VA "Fantazma"
+title: VA «Fantazma»
 meta: VA - Fantazma by Sentimony Records
 keywords: VA Fantazma, Sentimony Records
 
+og-image: 
+
 category: releases
-permalink: release/va-fantazma
+permalink: /release/va-fantazma
 release-id: va-fantazma
 
 label: Sentimony Records

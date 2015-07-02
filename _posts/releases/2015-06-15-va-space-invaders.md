@@ -1,12 +1,14 @@
 ---
 layout: release
 
-title: VA "Space Invaders"
+title: VA «Space Invaders»
 meta: VA - Space Invaders by Another Dimension Music
 keywords: VA Space Invaders, Another Dimension Music
 
+og-image: 
+
 category: releases
-permalink: release/va-space-invaders
+permalink: /release/va-space-invaders
 release-id: va-space-invaders
 
 label: Another Dimension Music

@@ -1,12 +1,14 @@
 ---
 layout: release
 
-title: VA "Audio Elastique"
+title: VA «Audio Elastique»
 meta: VA - Audio Elastique by Another Dimension Music
 keywords: VA Audio Elastique, Another Dimension Music
 
+og-image: 
+
 category: releases
-permalink: release/va-audio-elastique
+permalink: /release/va-audio-elastique
 release-id: va-audio-elastique
 
 label: Another Dimension Music

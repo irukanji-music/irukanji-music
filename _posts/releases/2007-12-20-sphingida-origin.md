@@ -1,12 +1,14 @@
 ---
 layout: release
 
-title: Sphingida "Origin"
+title: Sphingida «Origin»
 meta: Sphingida - Origin by Sentimony Records
 keywords: Sphingida Origin, Sentimony Records
 
+og-image: 
+
 category: releases
-permalink: release/sphingida-origin
+permalink: /release/sphingida-origin
 release-id: sphingida-origin
 
 label: Sentimony Records

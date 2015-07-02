@@ -1,12 +1,14 @@
 ---
 layout: release
 
-title: VA "True Story"
+title: VA «True Story»
 meta: VA - True Story by Sentimony Records
 keywords: VA True Story, Sentimony Records
 
+og-image: 
+
 category: releases
-permalink: release/va-true-story
+permalink: /release/va-true-story
 release-id: va-true-story
 
 label: Sentimony Records
