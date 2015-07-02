@@ -8,7 +8,7 @@ keywords: VA Emptinesses, Sentimony Records
 og-image: release/va-emptinesses-og.jpg
 
 category: releases
-permalink: /release/va-emptinesses
+permalink: /release/va-emptinesses/
 release-id: va-emptinesses
 
 label: Sentimony Records

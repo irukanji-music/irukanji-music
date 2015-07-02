@@ -8,7 +8,7 @@ keywords: VA Fantazma, Sentimony Records
 og-image: release/va-fantazma-og.jpg
 
 category: releases
-permalink: /release/va-fantazma
+permalink: /release/va-fantazma/
 release-id: va-fantazma
 
 label: Sentimony Records

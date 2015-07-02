@@ -8,7 +8,7 @@ keywords: Sphingida Origin, Sentimony Records
 og-image: release/sphingida-origin-og.jpg
 
 category: releases
-permalink: /release/sphingida-origin
+permalink: /release/sphingida-origin/
 release-id: sphingida-origin
 
 label: Sentimony Records

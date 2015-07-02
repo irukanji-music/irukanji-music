@@ -8,7 +8,7 @@ keywords: VA Tabula Rasa, Another Dimension Music
 og-image: release/va-tabula-rasa-og.jpg
 
 category: releases
-permalink: /release/va-tabula-rasa
+permalink: /release/va-tabula-rasa/
 release-id: va-tabula-rasa
 
 label: Another Dimension Music

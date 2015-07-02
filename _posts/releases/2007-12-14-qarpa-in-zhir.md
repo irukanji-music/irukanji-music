@@ -8,7 +8,7 @@ keywords: Qarpa, In Zhir, ЯОК Music
 og-image: release/qarpa-in-zhir-og.jpg
 
 category: releases
-permalink: /release/qarpa-in-zhir
+permalink: /release/qarpa-in-zhir/
 release-id: qarpa-in-zhir
 
 label: ЯОК Music

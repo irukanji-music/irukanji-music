@@ -8,7 +8,7 @@ keywords: VA Absence Of Gravity, Sentimony Records
 og-image: release/va-absence-of-gravity-og.jpg
 
 category: releases
-permalink: /release/va-absence-of-gravity
+permalink: /release/va-absence-of-gravity/
 release-id: va-absence-of-gravity
 
 label: Sentimony Records

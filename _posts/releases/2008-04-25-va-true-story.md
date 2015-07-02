@@ -8,7 +8,7 @@ keywords: VA True Story, Sentimony Records
 og-image: release/va-true-story-og.jpg
 
 category: releases
-permalink: /release/va-true-story
+permalink: /release/va-true-story/
 release-id: va-true-story
 
 label: Sentimony Records

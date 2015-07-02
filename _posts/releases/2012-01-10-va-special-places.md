@@ -8,7 +8,7 @@ keywords: VA Special Places, Sentimony Records
 og-image: release/va-special-places-og.jpg
 
 category: releases
-permalink: /release/va-special-places
+permalink: /release/va-special-places/
 release-id: va-special-places
 
 label: Sentimony Records

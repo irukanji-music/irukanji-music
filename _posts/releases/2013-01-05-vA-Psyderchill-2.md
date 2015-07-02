@@ -8,7 +8,7 @@ keywords: VA Psyderchill 2, Psyderweb Records
 og-image: release/va-psyderchill-2-og.jpg
 
 category: releases
-permalink: /release/va-psyderchill-2
+permalink: /release/va-psyderchill-2/
 release-id: va-psyderchill-2
 
 label: Psyderweb Records

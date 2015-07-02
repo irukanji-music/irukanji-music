@@ -8,7 +8,7 @@ keywords: VA Lets Start Dreaming, High Hopes Records
 og-image: release/va-lets-start-dreaming-og.jpg
 
 category: releases
-permalink: /release/va-lets-start-dreaming
+permalink: /release/va-lets-start-dreaming/
 release-id: va-lets-start-dreaming
 
 label: High Hopes Records

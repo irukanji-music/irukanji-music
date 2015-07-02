@@ -8,7 +8,7 @@ keywords: VA Skygravity 2 Solar System, Skygravity Records
 og-image: release/va-skygravity-2-solar-system-og.jpg
 
 category: releases
-permalink: /release/va-skygravity-2-solar-system
+permalink: /release/va-skygravity-2-solar-system/
 release-id: va-skygravity-2-solar-system
 
 label: Skygravity Records

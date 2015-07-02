@@ -8,7 +8,7 @@ keywords: VA Ukranian Dimension, Another Dimension Music
 og-image: release/va-ukranian-dimension-og.jpg
 
 category: releases
-permalink: /release/va-ukranian-dimension
+permalink: /release/va-ukranian-dimension/
 release-id: va-ukranian-dimension
 
 label: Another Dimension Music

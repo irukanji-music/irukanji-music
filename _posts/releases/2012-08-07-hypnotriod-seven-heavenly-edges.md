@@ -8,7 +8,7 @@ keywords: Hypnotriod, Seven Heavenly Edges, Sentimony Records
 og-image: release/hypnotriod-seven-heavenly-edges-og.jpg
 
 category: releases
-permalink: /release/hypnotriod-seven-heavenly-edges
+permalink: /release/hypnotriod-seven-heavenly-edges/
 release-id: hypnotriod-seven-heavenly-edges
 
 label: Sentimony Records

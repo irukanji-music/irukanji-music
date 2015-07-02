@@ -8,7 +8,7 @@ keywords: VA Space Invaders, Another Dimension Music
 og-image: release/va-space-invaders-og.jpg
 
 category: releases
-permalink: /release/va-space-invaders
+permalink: /release/va-space-invaders/
 release-id: va-space-invaders
 
 label: Another Dimension Music

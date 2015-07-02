@@ -8,7 +8,7 @@ keywords: VA The Best Electronica In UA, CTS Records
 og-image: release/va-the-best-electronica-in-ua-og.jpg
 
 category: releases
-permalink: /release/va-the-best-electronica-in-ua
+permalink: /release/va-the-best-electronica-in-ua/
 release-id: va-the-best-electronica-in-ua
 
 label: CTS Records

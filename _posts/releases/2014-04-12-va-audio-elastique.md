@@ -8,7 +8,7 @@ keywords: VA Audio Elastique, Another Dimension Music
 og-image: release/va-audio-elastique-og.jpg
 
 category: releases
-permalink: /release/va-audio-elastique
+permalink: /release/va-audio-elastique/
 release-id: va-audio-elastique
 
 label: Another Dimension Music
