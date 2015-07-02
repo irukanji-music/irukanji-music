@@ -10,7 +10,7 @@ header.header {
 		top: 0;
 		z-index: 99999999999999999999;
 		width: 100%;
-		background: rgba(34, 34, 34, 0.0);
+		background: rgba(34, 34, 34, 0.25);
 		// background: #222;
 		padding: 6px 10%;
 		@include box-sizing(border-box);
@@ -31,7 +31,7 @@ header.header {
 		float: left;
 		color: #fff;
 		// margin-right: -1px;
-		text-shadow: 1px 1px 10px #000, -1px -1px 10px #000;
+		text-shadow: 1px 1px 16px #000, -1px -1px 16px #000;
 
 			// &:last-child {
 				// margin-right: 0;
@@ -54,7 +54,7 @@ header.header {
 		&:hover,
 		&.selected {
 			color: $link-color;
-			text-shadow: 1px 1px 20px #000, -1px -1px 20px #000;
+			text-shadow: 1px 1px 8px #000, -1px -1px 8px #000;
 
 			&:before {
 				box-shadow: inset 0 0 30px $link-color;
