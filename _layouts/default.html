@@ -9,7 +9,7 @@
 	<title>{% if page.title %}{{ page.title }} · {% endif %}Irukanji Music{% if page.titleAfter %} · {{ page.titleAfter }}{% endif %}</title>
 	<meta name="description" content="{{ page.meta }}">
 	<meta name="keywords" content="{% if page.keywords %}{{page.keywords}},{% endif %} {{site.keywords}}">
-	<meta name="author" content="Ihor Orlovskyi">
+	<meta name="author" content="Irukanji">
 
 	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
 
@@ -19,10 +19,10 @@
 	<link rel="canonical" href="{{ site.basedomain }}{{ site.baseurl }}{{ page.permalink }}">
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
-	<meta property="article:author" content="https://www.facebook.com/profile.php?id=1617270694" />
-	<meta property="article:publisher" content="https://www.facebook.com/sentimony.records">
+	<meta property="article:author" content="https://www.facebook.com/irukanji.music">
+	<meta property="article:publisher" content="https://www.facebook.com/irukanji.music">
 
-	<meta property="og:title" content="{% if page.title %}{{ page.title }} · {% endif %}Irukanji Music{% if page.titleAfter %} · {{ page.titleAfter }}{% endif %}">
+	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% endif %}{% if page.titleAfter %}Irukanji Music{% endif %}">
 	<meta property="og:description" content="{{ page.meta }}">
 	<meta property="og:image" content="{{ site.basedomain }}{{ site.baseurl }}/assets/img/{{ page.og-image }}">
 	<meta property="og:url" content="{{ site.basedomain }}{{ site.baseurl }}{{ page.permalink }}">
