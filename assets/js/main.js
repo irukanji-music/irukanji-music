@@ -1,9 +1,3 @@
-$( document ).ready(function() {
-
-	//
-
-});
-
 /**
  * Created by Sallar Kaboli <sallar.kaboli@gmail.com>
  * @sallar
@@ -111,6 +105,10 @@ scroller.init();
 
 
 
+/**
+ * Waypoint
+ * https://github.com/imakewebthings/waypoints
+ */
 // Header menu FX
 var $head = $( 'header' );
 $('.header-waypoint').each( function(i) {
@@ -138,3 +136,5 @@ $(document).ready(function() {
 		});
 	});
 });
+
+

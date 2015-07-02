@@ -29,12 +29,12 @@ header.header {
 		line-height: 22px;
 		display: inline-block;
 		color: #fff;
-		text-shadow: 1px 1px 11px #000, -1px -1px 1px #000;
+		text-shadow: 1px 1px 10px #000, -1px -1px 10px #000;
 
 		&:hover,
 		&.selected {
 			color: $link-color;
-			text-shadow: 1px 1px 1px #000, -1px -1px 11px #000;
+			text-shadow: 1px 1px 20px #000, -1px -1px 20px #000;
 		}
 	}
 
