@@ -25,6 +25,7 @@ div.donate-me {
 	background-image: repeating-radial-gradient(circle at 50% 50%, $bg-color-gradient 50%, transparent 55%);
 	background-size: 30px 30px;
 
+	position: relative;
 	padding: 20px;
 	margin: 0 0 20px;
 	border: 1px solid #4E4E4E;
