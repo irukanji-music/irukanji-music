@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en-US" class="header-waypoint" data-animate-down="header-down" data-animate-up="header-up">
 <head>
 
 	<meta charset="utf-8">
@@ -9,37 +9,32 @@
 	<title>{% if page.title %}{{ page.title }} · {% endif %}Irukanji Music{% if page.titleAfter %} · {{ page.titleAfter }}{% endif %}</title>
 	<meta name="description" content="{{ page.meta }}">
 	<meta name="keywords" content="{% if page.keywords %}{{page.keywords}},{% endif %} {{site.keywords}}">
-	<!-- <meta name="author" content="Irukanji"> -->
-
-	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
-
-	<link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/img/favicons/favicon-32.png">
-
 	<meta property="og:site_name" content="Irukanji Music">
 	<link rel="canonical" href="{{ site.basedomain }}{{ site.baseurl }}{{ page.permalink }}">
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="article">
 	<meta property="article:author" content="https://www.facebook.com/irukanji.music">
-
 	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% endif %}{% if page.titleAfter %}Irukanji Music{% endif %}">
 	<meta property="og:description" content="{{ page.meta }}">
 	<meta property="og:url" content="{{ site.basedomain }}{{ site.baseurl }}{{ page.permalink }}">
 	<meta property="og:image" content="{{ site.basedomain }}{{ site.baseurl }}/assets/img/{{ page.og-image }}">
-	<meta property="og:image:width" content="1200">
-	<meta property="og:image:height" content="630">
+	<meta property="og:image:width" content="1024">
+	<meta property="og:image:height" content="538">
+
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+	<link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/img/favicons/favicon-32.png">
 </head>
-<body class="header-waypoint" data-animate-down="header-down" data-animate-up="header-up">
+<body>
 
 	{% include preloader.html %}
 
 	<header class="header">
-		<nav class="brand">
+		<nav class="brand firm-hover-fx">
 			<a href="{{ site.baseurl }}/" class="{% if page.url == '/' %}selected{% endif %}"><span class="icon-deer"></span><i>Irukanji</i></a>
 			<a href="{{ site.baseurl }}/discography" class="{% if page.url contains 'discography' or page.url contains 'release' %}selected{% endif %}"><span class="icon-discogs"></span><i>Discography</i></a>
 			<a href="{{ site.baseurl }}/events" class="{% if page.url contains 'events' or page.url contains 'event' %}selected{% endif %}"><span class="icon-eagle"></span><i>Events</i></a>
 		</nav>
-		<nav class="social">
-			<!-- <span>Follow Irukanji:</span> -->
+		<nav class="social firm-hover-fx">
 			<a href="https://irukanji.bandcamp.com" target="_blank"><span class="icon-bandcamp"></span><i>bandcamp</i></a>
 			<a href="https://www.facebook.com/irukanji.music" target="_blank"><span class="icon-facebook-official"></span><i>facebook</i></a>
 			<a href="https://soundcloud.com/irukanji-music" target="_blank"><span class="icon-soundcloud"></span><i>soundcloud</i></a>
@@ -48,8 +43,10 @@
 
 	{{ content }}
 
-	<footer>
-		<div class="gigantic"><span class="icon-deer"></span></div>
+	<footer class="footer firm-hover-fx">
+		<div class="gigantic">
+			<a href="{{ site.baseurl }}/"><span class="icon-deer"></span></a>
+		</div>
 		<nav class="contact">
 			<div>Contact:</div>
 			<div>email: <a href="mailto:irukanji.music@gmail.com?subject=Hello Irukanji">irukanji.music@gmail.com</a></div>

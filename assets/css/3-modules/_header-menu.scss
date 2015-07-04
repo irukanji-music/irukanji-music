@@ -1,123 +1,67 @@
-/* ----------------------------------------------------------------------------------------------------
-header
----------------------------------------------------------------------------------------------------- */
-header.header {
+/*-------------------------------------------------------------------------*/
+/*	# TOP MENU
+/*-------------------------------------------------------------------------*/
+.header {
+	left: 0;
+	top: 0;
+	z-index: 99999999999999999999;
+	width: 100%;
+	background: rgba(34, 34, 34, 0.25);
+	padding: 6px 10%;
+	@include box-sizing(border-box);
+	position: fixed;
 	@include transition(all 1.0s $ease-out-quint);
+	&.header-down {
+		float: left;
+		padding: 6px 2.5%;
+		background: rgba(34, 34, 34, 1.0);
+	}
+	&.header-up {
+	}
 
-	&.header {
-		position: fixed;
-		left: 0;
-		top: 0;
-		z-index: 99999999999999999999;
-		width: 100%;
-		background: rgba(34, 34, 34, 0.25);
-		// background: #222;
-		padding: 6px 10%;
-		@include box-sizing(border-box);
-
-		&.header-down {
+	nav {
+			a {
+			padding: 3px 12px 4px;
+			line-height: 22px;
 			float: left;
-			padding: 6px 2.5%;
-			background: rgba(34, 34, 34, 1.0);
 		}
-		&.header-up {}
-	}
-
-
-	a {
-		position: relative;
-		padding: 3px 12px 4px;
-		line-height: 22px;
-		float: left;
-		color: #fff;
-		// margin-right: -1px;
-		text-shadow: 1px 1px 16px #000, -1px -1px 16px #000;
-
-			// &:last-child {
-				// margin-right: 0;
-			// }
-
-		&:before {
-			content: '';
-			position: absolute;
-			top: 0;
-			left: 0;
-			bottom: 0;
-			right: 0;
-			// border-style: solid;
-			// border-width: 0;
-			// border-width: #fff;
-			box-shadow: inset 0 0 0 #fff;
-			@include transition(all 0.75s $ease-out-quint);
+		&.brand {
+			float: left;
+			a {
+				[class^="icon-"] {
+					float: left;
+					font-size: 22px;
+					position: relative;
+					margin-right: 10px;
+				}
+				i {
+					float: left;
+					font-style: normal;
+					font-size: 12px;
+					position: relative;
+					top: 2px;
+					text-transform: uppercase;
+				}
+			}
 		}
-
-		&:hover,
-		&.selected {
-			color: $link-color;
-			text-shadow: 1px 1px 8px #000, -1px -1px 8px #000;
-
-			&:before {
-				box-shadow: inset 0 0 30px $link-color;
-				// border-width: 0;
-				// border-width: $link-color;
+		&.social {
+			float: right;
+			a {
+				[class^="icon-"] {
+					float: left;
+					font-size: 22px;
+					position: relative;
+					margin-right: 10px;
+				}
+				i {
+					float: left;
+					font-style: normal;
+					font-size: 10px;
+					letter-spacing: -0.5px;
+				}
 			}
 		}
 	}
-
-	nav.brand {
-		float: left;
-
-		a {
-
-			[class^="icon-"] {
-				float: left;
-				font-size: 22px;
-				// line-height: 1px;
-				position: relative;
-				// top: 6px;
-				margin-right: 10px;
-			}
-
-			i {
-				float: left;
-				font-style: normal;
-				font-size: 12px;
-				position: relative;
-				top: 2px;
-				text-transform: uppercase;
-			}
-
-		}
-	}
-	nav.social {
-		float: right;
-
-		a {
-			// font-size: 8px;
-			// line-height: 17px;
-			// margin-left: 20px;
-
-			[class^="icon-"] {
-				float: left;
-				font-size: 22px;
-				// line-height: 1px;
-				position: relative;
-				// top: 6px;
-				margin-right: 10px;
-			}
-
-			i {
-				// display: none;
-				float: left;
-				font-style: normal;
-				font-size: 10px;
-				// text-transform: uppercase;
-				letter-spacing: -0.5px;
-			}
-
-		}
-	}
-
 }
 
 .zoom-overlay-open {
@@ -125,3 +69,24 @@ header.header {
 		@include transform(translateY(-100%));
 	}
 }
+
+
+/**
+* firm hover fx
+* ----------------------------------------------------------------------------
+*/
+.firm-hover-fx {
+	a {
+		color: #fff;
+		text-shadow: 1px 1px 16px #000, -1px -1px 16px #000;
+		box-shadow: inset 0 0 0 #fff;
+		@include transition(all 0.75s $ease-out-quint);
+		&:hover,
+		&.selected {
+			color: $link-color;
+			text-shadow: 1px 1px 8px #000, -1px -1px 8px #000;
+			box-shadow: inset 0 0 30px $link-color;
+		}
+	}
+}
+

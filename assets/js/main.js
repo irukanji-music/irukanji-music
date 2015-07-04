@@ -82,8 +82,8 @@ Scroller.prototype = {
 		/**
 		 * Do The Dirty Work Here
 		 */
-		var slowScroll = currentScrollY / 0.75,
-				blurScroll = currentScrollY * 1.25;
+		var slowScroll = currentScrollY / 4,
+				blurScroll = currentScrollY * 2;
 		
 		$content.css({
 			'transform'         : 'translateY(-' + slowScroll + 'px)',

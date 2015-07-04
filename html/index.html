@@ -9,42 +9,6 @@ og-image: index-og.jpg
 permalink: /
 ---
 
-<div class="index-head">
-	<div class="overlay"></div>
-	<div class="content">
-		<hgroup>
-			<h1>Irukanji</h1>
-			<h2>Electronic Psychedelic Music</h2>
-		</hgroup>
-	</div>
-</div>
-
-{% include bandcamp-section.html %}
-
-<section class="index-releases">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-sm-10 col-sm-offset-1">
-
-				<h2>Latest Releases</h2>
-
-				<div class="isotope-container">
-					{% for releases in site.categories.releases limit:6 %}
-					<article class="isotope-item">
-						<a href="{{ site.baseurl }}{{ releases.url }}">
-							<div class="image-contour">
-								<img src="{{ site.baseurl }}/assets/img/releases/{{ releases.release-id }}-sq.jpg" alt="{{ releases.title }}">
-							</div>
-							<div class="title">{{ releases.title }}</div>
-							<div>{{ releases.label }}</div>
-						</a>
-					</article>
-					{% endfor %}
-				</div>
-
-				<a href="{{ site.baseurl }}/discography" class="button"><span class="icon-discogs"></span>  Veiw full discography</a>
-
-			</div>
-		</div>
-	</div>
-</section>
+{% include index/header.html %}
+{% include index/recent-releases.html %}
+{% include index/bandcamp-all.html %}
