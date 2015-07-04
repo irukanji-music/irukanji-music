@@ -13,12 +13,25 @@ permalink: /events/
 	<h1><span class="icon-eagle"></span> Events</h1>
 </div>
 
-<section class="index-releases">
+<section class="events-page">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-sm-6 col-sm-offset-3">
 
-				<h1>Events section on under construction</h1>
+				<div class="isotope-container">
+					{% for events in site.categories.events %}
+
+					<p class="isotope-item">
+						<span>{{ events.date | date: "%-d %B %Y" }}</span> - 
+						<span>{{ events.title }}</span> | 
+						<a href="{{ events.fb-link }}" target="_blank"><span class="icon-facebook-official"></span></a>
+					</p>
+
+					{% endfor %}
+
+					<p class="isotope-item">and more . . .</p>
+
+				</div>
 
 			</div>
 		</div>
