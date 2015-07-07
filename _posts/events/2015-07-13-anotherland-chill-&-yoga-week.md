@@ -1,5 +1,5 @@
 ---
-layout: event
+layout: default
 
 meta: 
 keywords: 
