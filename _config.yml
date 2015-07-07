@@ -12,5 +12,5 @@ sass:
   sass_dir: assets/css
   style: :expanded
 
-# for og
+# for open graph
 basedomain: http://irukanji-music.com
