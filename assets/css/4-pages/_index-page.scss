@@ -42,14 +42,15 @@
 				margin: 0 0 0.1em;
 				letter-spacing: 0.3em;
 				font-family: 'Neuton', serif;
+				font-weight: 300;
 			}
 
 			h2 {
 				font-size: 20px;
 				color: #fff;
 				margin: 0;
-				letter-spacing: 0.625em;
-				font-family: 'Neuton', serif;
+				letter-spacing: 0.575em;
+				font-weight: 700;
 			}
 		}
 	}
@@ -73,7 +74,7 @@
 * bandcamp all
 * ----------------------------------------------------------------------------
 */
-section.index-bandcamp {
+.index-bandcamp {
 	padding: 60px 0;
 	@include clearfix;
 
@@ -114,7 +115,7 @@ section.index-bandcamp {
 * recent releases
 * ----------------------------------------------------------------------------
 */
-section.index-releases {
+.index-releases {
 	height: auto;
 	width: 100%;
 	position: relative;
@@ -124,6 +125,9 @@ section.index-releases {
 
 	h2 {
 		margin-bottom: 60px;
+		letter-spacing: 0.3em;
+		font-family: 'Neuton', serif;
+		font-weight: 300;
 	}
 
 	.isotope-container {

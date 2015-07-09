@@ -3,7 +3,7 @@ parallax window
 ---------------------------------------------------------------------------------------------------- */
 .parallax-window {
 	position: relative;
-	height: 40%;
+	height: 60%;
 	background: transparent;
 	overflow: hidden;
 
@@ -24,10 +24,18 @@ parallax window
 		position: absolute;
 		width: auto;
 		top: 50%;
+		left: 0;
+
+		letter-spacing: 0.3em;
+		font-family: 'Neuton', serif;
+		font-weight: 300;
+
 		// left: 50%;
 		// display: inline-block;
 		// @include transform(translate(-50%, -50%));
 		width: 100%;
+		padding: 0 10%;
+		@include box-sizing(border-box);
 		text-align: center;
 		@include transform(translateY(-50%));
 		z-index: 20;

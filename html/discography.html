@@ -26,8 +26,7 @@ permalink: /discography/
 								<img src="{{ site.baseurl }}/assets/img/releases/{{ releases.release-id }}-sq.jpg" alt="{{ releases.title }}">
 							</div>
 							<div class="title">{{ releases.title }}</div>
-							<div>{{ releases.label }}</div>
-							<small>{{ releases.date | date: "%Y" }}</small>
+							<div class="description">{{ releases.label }}, {{ releases.date | date: "%Y" }}</div>
 						</a>
 					</article>
 					{% endfor %}

@@ -10,7 +10,7 @@ exclude: ['README.md']
 
 sass:
   sass_dir: assets/css
-  style: :expanded
+  style: :compressed
 
 # for open graph
 basedomain: http://irukanji-music.com
