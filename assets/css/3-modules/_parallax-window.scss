@@ -35,12 +35,12 @@ parallax window
 		// @include transform(translate(-50%, -50%));
 		width: 100%;
 		padding: 0 10%;
+		margin: 0;
 		@include box-sizing(border-box);
 		text-align: center;
 		@include transform(translateY(-50%));
 		z-index: 20;
 		font-size: 60px;
-		letter-spacing: 6px;
 		text-shadow: 1px 1px 1px #000, -1px -1px 11px #000;
 		color: #fff;
 

@@ -150,7 +150,7 @@ $('.index-head hgroup h1').fitText(0.75);
 $('.index-head hgroup h2').fitText(3.75);
 $('.index-releases .title').fitText(1.25);
 $('.index-releases .description').fitText(2.00);
-$('.parallax-window h1').fitText(1);
+$('.parallax-window h1').fitText(1.5);
 
 
 /**
@@ -161,6 +161,7 @@ $(document).ready(function() {
 	NProgress.start();
 });
 $(window).load(function(){
+	$('#load_screen').fadeOut(1000);
 	NProgress.done();
 });
 
