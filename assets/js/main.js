@@ -150,5 +150,15 @@ $('.index-head hgroup h1').fitText(0.75);
 $('.index-head hgroup h2').fitText(3.75);
 
 
+/**
+* fittext
+* https://github.com/rstacruz/nprogress/
+*/
+$(document).ready(function() {
+	NProgress.start();
+});
+$(window).load(function(){
+	NProgress.done();
+});
 
 
