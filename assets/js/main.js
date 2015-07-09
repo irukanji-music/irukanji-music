@@ -161,7 +161,6 @@ $(document).ready(function() {
 	NProgress.start();
 });
 $(window).load(function(){
-	$('#load_screen').fadeOut(1000);
 	NProgress.done();
 });
 
