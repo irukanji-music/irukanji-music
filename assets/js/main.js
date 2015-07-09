@@ -106,10 +106,9 @@ scroller.init();
 
 
 /**
- * Waypoint
- * https://github.com/imakewebthings/waypoints
- */
-// Header menu FX
+* waypoint
+* https://github.com/imakewebthings/waypoints
+*/
 var $head = $( 'header' );
 $('.header-waypoint').each( function(i) {
 	var $el = $( this ),
@@ -126,7 +125,11 @@ $('.header-waypoint').each( function(i) {
 });
 
 
-// Isotope
+/**
+* isotope with imagesloaded 
+* https://github.com/metafizzy/isotope
+* https://github.com/desandro/imagesloaded
+*/
 var $container = $('.isotope-container');
 $(document).ready(function() {
 	$container.imagesLoaded( function() {
@@ -136,5 +139,16 @@ $(document).ready(function() {
 		});
 	});
 });
+
+
+
+/**
+* fittext
+* https://github.com/davatron5000/FitText.js
+*/
+$('.index-head hgroup h1').fitText(0.75);
+$('.index-head hgroup h2').fitText(3.75);
+
+
 
 

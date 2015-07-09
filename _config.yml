@@ -2,7 +2,7 @@
 baseurl: 
 markdown: kramdown
 permalink: pretty
-keywords: irukanji, psychedelic, electronic
+keywords: 'irukanji, psychedelic, electronic'
 
 port: 2525
 

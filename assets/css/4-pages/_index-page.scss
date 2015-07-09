@@ -26,26 +26,30 @@
 		hgroup {
 			position: absolute;
 			top: 50%;
-			left: 50%;
-			@include transform(translate(-50%, -50%));
+			left: 0;
+			@include transform(translateY(-50%));
 			display: inline-block;
 			// border: 10px solid #fff;
 			// background: rgba(0,0,0,.5);
 			text-shadow: 1px 1px 1px #000, -1px -1px 11px #000;
-			padding: 30px 60px;
+			padding: 30px 10%;
+			width: 100%;
+			@include box-sizing(border-box);
 
 			h1 {
 				font-size: 100px;
 				color: #fff;
-				margin: 0;
-				letter-spacing: 14px;
+				margin: 0 0 0.1em;
+				letter-spacing: 0.3em;
+				font-family: 'Neuton', serif;
 			}
 
 			h2 {
 				font-size: 20px;
 				color: #fff;
-				margin: 0 0 20px;
-				letter-spacing: 7px;
+				margin: 0;
+				letter-spacing: 0.625em;
+				font-family: 'Neuton', serif;
 			}
 		}
 	}
