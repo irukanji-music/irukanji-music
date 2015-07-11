@@ -5,12 +5,15 @@
 
 				<h2>Latest Releases</h2>
 
-				<div class="isotope-container">
+				<div class="relaselist-container isotope-container">
 					{% for releases in site.categories.releases limit:6 %}
-					<article class="isotope-item">
+					<article class="relaselist-item isotope-item">
 						<a href="{{ site.baseurl }}{{ releases.url }}">
 							<div class="image-contour">
-								<img src="{{ site.baseurl }}/assets/img/releases/{{ releases.release-id }}-sq.jpg" alt="{{ releases.title }}">
+								<img
+									data-layzr="{{ site.baseurl }}/assets/img/releases/{{ releases.release-id }}-sq.jpg"
+									src="holder.js/700x700?auto=yes"
+								>
 							</div>
 							<div class="title">{{ releases.title }}</div>
 							<div class="description">{{ releases.label }}</div>

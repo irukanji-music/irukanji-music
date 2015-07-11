@@ -130,10 +130,16 @@
 		font-weight: 300;
 	}
 
-	.isotope-container {
+	.relaselist-container {
 		margin-bottom: 40px;
+		@include clearfix;
 
-		article.isotope-item {
+		// .isotope-item .image-contour img {
+		// 	width: 100% !important;
+		// 	height: auto !important;
+		// }
+
+		.relaselist-item {
 			float: left;
 			width: 33.333333333333333%;
 			// width: 25%;
@@ -150,8 +156,10 @@
 				margin-bottom: 20px;
 
 				img {
-					// max-width: 200px;
 					width: 100%;
+					height: auto;
+					// width: 100% !important;
+					// height: auto !important;
 					display: block;
 					@include transition(all 3.0s $ease-out-quint);
 					@include transform(scale(1.0) translateZ(0));
@@ -169,7 +177,7 @@
 			}
 			&:hover {
 				img {
-						@include transform(scale(1.2));
+					@include transform(scale(1.2));
 				}
 			}
 		}
@@ -177,3 +185,4 @@
 	}
 
 }
+
