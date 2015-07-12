@@ -146,8 +146,8 @@ $(document).ready(function() {
 * fittext
 * https://github.com/davatron5000/FitText.js
 */
-$('.index-head hgroup h1').fitText(0.75);
-$('.index-head hgroup h2').fitText(3.75);
+// $('.index-head hgroup h1').fitText(0.75);
+// $('.index-head hgroup h2').fitText(3.75);
 $('.index-releases .title').fitText(1.25);
 $('.index-releases .description').fitText(2.00);
 $('.parallax-window h1').fitText(1.5);
@@ -182,7 +182,7 @@ var layzr = new Layzr({
 
 
 /**
-* layzr.js
+* holder.js
 * https://github.com/imsky/holder
 */
 
