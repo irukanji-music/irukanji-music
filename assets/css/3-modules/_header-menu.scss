@@ -4,13 +4,14 @@
 .header {
 	left: 0;
 	top: 0;
-	z-index: 99999999999999999999;
+	z-index: 999999;
 	width: 100%;
 	background: rgba(34, 34, 34, 0.25);
-	padding: 6px 10%;
 	@include box-sizing(border-box);
 	position: fixed;
 	@include transition(all 1.0s $ease-out-quint);
+	padding: 6px 2.5%;
+	@media (min-width: 992px) {& {padding: 6px 10%;}}
 	&.header-down {
 		float: left;
 		padding: 6px 2.5%;
@@ -24,23 +25,29 @@
 			padding: 3px 12px 4px;
 			line-height: 22px;
 			float: left;
+			[class^="icon-"] {
+				float: left;
+				font-size: 22px;
+				position: relative;
+			}
+			i {
+				font-style: normal;
+				margin-left: 10px;
+				float: left;
+				display: none;
+				@media (min-width: 992px) {& {display: block;}}
+			}
 		}
 		&.brand {
 			float: left;
 			a {
 				[class^="icon-"] {
-					float: left;
-					font-size: 22px;
-					position: relative;
-					margin-right: 10px;
 				}
 				i {
-					float: left;
-					font-style: normal;
 					font-size: 12px;
+					text-transform: uppercase;
 					position: relative;
 					top: 2px;
-					text-transform: uppercase;
 				}
 			}
 		}
@@ -48,14 +55,8 @@
 			float: right;
 			a {
 				[class^="icon-"] {
-					float: left;
-					font-size: 22px;
-					position: relative;
-					margin-right: 10px;
 				}
 				i {
-					float: left;
-					font-style: normal;
 					font-size: 10px;
 					letter-spacing: -0.5px;
 				}
