@@ -13,7 +13,7 @@
 	position: relative;
 	text-align: center;
 		// background: #000 url(/assets/img/kaleidoskopie2014-q70-lsd1.jpg) center no-repeat;
-	background: #000 url(/assets/img/kaleidoskopie2014-q70.jpg) center no-repeat;
+	background: #000 url(/assets/img/kaleidoskopie2014-q70-lsd1.jpg) center no-repeat;
 	background-size: cover;
 
 	.content {
@@ -41,14 +41,14 @@
 			@media (min-width: 1200px) {& {padding: 0 20%;}}
 
 			h1 {
-				font-size: 38.4px;
 				color: #fff;
 				margin: 0 0 0.1em;
 				letter-spacing: 0.3em;
 				// font-family: 'Neuton', serif;
 				// font-weight: 300;
 				font-weight: 300;
-				@media (min-width: 320px) {& {font-size: 38.4px;}}
+				font-size: 38.4px;
+				// @media (min-width: 320px) {& {font-size: 38.4px;}}
 				@media (min-width: 568px) {& {font-size: 68.3px;}}
 				@media (min-width: 768px) {& {font-size: 81.9px;}}
 				@media (min-width: 992px) {& {font-size: 92.5px;}}
@@ -56,13 +56,13 @@
 			}
 
 			h2 {
-				font-size: 7.68px;
 				color: #fff;
 				margin: 0;
 				letter-spacing: 0.575em;
 				// font-weight: 700;
 				font-weight: 300;
-				@media (min-width: 320px) {& {font-size: 7.68px;}}
+				font-size: 7.68px;
+				// @media (min-width: 320px) {& {font-size: 7.68px;}}
 				@media (min-width: 568px) {& {font-size: 13.6px;}}
 				@media (min-width: 768px) {& {font-size: 16.4px;}}
 				@media (min-width: 992px) {& {font-size: 18.5px;}}
@@ -157,12 +157,15 @@
 
 		.relaselist-item {
 			float: left;
-			width: 33.333333333333333%;
-			// width: 25%;
 			margin-bottom: 40px;
 			padding: 0 20px;
 			display: block;
 			@include box-sizing(border-box);
+			font-size: 38.4px;
+			width: 100%;
+			// @media (min-width: 320px) {& {width: 100%;}}
+			@media (min-width: 568px) {& {width: 50%;}}
+			@media (min-width: 768px) {& {width: 33.333333333333333%;}}
 
 			.image-contour {
 				// float: left;
