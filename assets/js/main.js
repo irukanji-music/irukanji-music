@@ -1,4 +1,16 @@
 /**
+* nprogress
+* https://github.com/rstacruz/nprogress/
+*/
+$(document).ready(function() {
+	NProgress.start();
+});
+$(window).load(function(){
+	NProgress.done();
+});
+
+
+/**
  * Created by Sallar Kaboli <sallar.kaboli@gmail.com>
  * @sallar
  * 
@@ -151,18 +163,6 @@ $(document).ready(function() {
 $('.index-releases .title').fitText(1.25);
 $('.index-releases .description').fitText(2.00);
 $('.parallax-window h1').fitText(1.5);
-
-
-/**
-* fittext
-* https://github.com/rstacruz/nprogress/
-*/
-$(document).ready(function() {
-	NProgress.start();
-});
-$(window).load(function(){
-	NProgress.done();
-});
 
 
 /**

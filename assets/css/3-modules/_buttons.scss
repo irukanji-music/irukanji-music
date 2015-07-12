@@ -11,11 +11,10 @@ a.button {
 	letter-spacing: 1px;
 
 	[class^="icon-"] {
-		float: left;
 		font-size: 24px;
-		margin-right: 12px;
+		margin-right: 4px;
 		position: relative;
-		top: 1px;
+		top: 3px;
 	}
 
 	&:hover {
