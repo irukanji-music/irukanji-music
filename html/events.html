@@ -21,11 +21,11 @@ permalink: /events/
 				<div class="isotope-container">
 					{% for events in site.categories.events %}
 
-					<p class="isotope-item">
-						<span>{{ events.date | date: "%-d %B %Y" }}</span> - 
+					<article class="isotope-item">
+						<span>{{ events.date | date: "%d.%m.%Y" }}</span> - 
 						<span>{{ events.title }}</span> | 
 						<a href="{{ events.fb-link }}" target="_blank"><span class="icon-facebook-official"></span></a>
-					</p>
+					</article>
 
 					{% endfor %}
 
