@@ -2,16 +2,18 @@
 baseurl: 
 markdown: kramdown
 permalink: pretty
-keywords: 'irukanji, psychedelic, electronic'
 
 host: 0.0.0.0
-port: 1101
+port: 7007
 
 exclude: ['README.md']
 
 sass:
   sass_dir: assets/css
   style: :compressed
+
+# custom settings
+keywords: 'irukanji, psychedelic, electronic'
 
 # for open graph
 basedomain: http://irukanji-music.com
