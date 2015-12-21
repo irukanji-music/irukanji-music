@@ -6,88 +6,93 @@ layout: compress
 <html lang="en-US" class="header-waypoint" data-animate-down="header-down" data-animate-up="header-up">
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{% if page.title %}{{ page.title }} · {% endif %}Irukanji Music{% if page.titleAfter %} · {{ page.titleAfter }}{% endif %}</title>
-    <meta name="description" content="{{ page.meta }}">
-    <meta name="keywords" content="{% if page.keywords %}{{page.keywords}},{% endif %} {{site.keywords}}">
-    <meta property="og:site_name" content="Irukanji Music">
-    <link rel="canonical" href="{{ site.basedomain }}{{ site.baseurl }}{{ page.permalink }}">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:type" content="article">
-    <meta property="article:author" content="https://www.facebook.com/irukanji.music">
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% endif %}{% if page.titleAfter %}Irukanji Music{% endif %}">
-    <meta property="og:description" content="{{ page.meta }}">
-    <meta property="og:url" content="{{ site.basedomain }}{{ site.baseurl }}{{ page.permalink }}">
-    <meta property="og:image" content="{{ site.basedomain }}{{ site.baseurl }}/assets/img/{{ page.og-image }}">
-    <meta property="og:image:width" content="1024">
-    <meta property="og:image:height" content="538">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}Irukanji Music{% if page.titleAfter %} · {{ page.titleAfter }}{% endif %}</title>
+  <meta name="description" content="{{ page.meta }}">
+  <meta name="keywords" content="{% if page.keywords %}{{page.keywords}},{% endif %} {{site.keywords}}">
+  <meta property="og:site_name" content="Irukanji Music">
+  <link rel="canonical" href="{{ site.basedomain }}{{ site.baseurl }}{{ page.permalink }}">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+  <meta property="article:author" content="https://www.facebook.com/irukanji.music">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% endif %}{% if page.titleAfter %}Irukanji Music{% endif %}">
+  <meta property="og:description" content="{{ page.meta }}">
+  <meta property="og:url" content="{{ site.basedomain }}{{ site.baseurl }}{{ page.permalink }}">
+  <meta property="og:image" content="{{ site.basedomain }}{{ site.baseurl }}/assets/img/{{ page.og-image }}">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="538">
 
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
-    <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/favicons/favicon-32.png">
-    <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/img/favicons/favicon-144.png">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/favicons/favicon-32.png">
+  <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/img/favicons/favicon-144.png">
 </head>
 <body>
 
-    <header class="header">
-        <nav class="brand firm-hover-fx">
-            <a href="{{ site.baseurl }}/" class="{% if page.url == '/' %}selected{% endif %}"><span class="icon-deer"></span><i>Irukanji</i></a>
-            <a href="{{ site.baseurl }}/discography" class="{% if page.url contains 'discography' or page.url contains 'release' %}selected{% endif %}"><span class="icon-discogs"></span><i>Discography</i></a>
-            <!-- <a href="{{ site.baseurl }}/events" class="{% if page.url contains 'events' or page.url contains 'event' %}selected{% endif %}"><span class="icon-eagle"></span><i>Events</i></a>
-            <a href="{{ site.baseurl }}/friends" class="{% if page.url contains 'friends' %}selected{% endif %}"><span class="icon-eagle"></span><i>Friends</i></a> -->
-        </nav>
-        <nav class="social firm-hover-fx">
-            <a href="https://irukanji.bandcamp.com" target="_blank"><span class="icon-bandcamp"></span><i>bandcamp</i></a>
-            <a href="https://www.facebook.com/irukanji.music" target="_blank"><span class="icon-facebook-official"></span><i>facebook</i></a>
-            <a href="https://soundcloud.com/irukanji-music" target="_blank"><span class="icon-soundcloud"></span><i>soundcloud</i></a>
-        </nav>
-    </header>
+  <header class="header">
+    <nav class="brand firm-hover-fx">
+      <a href="{{ site.baseurl }}/" class="{% if page.url == '/' %}selected{% endif %}"><span class="icon-deer"></span><i>Irukanji</i></a>
+      <a href="{{ site.baseurl }}/discography" class="{% if page.url contains 'discography' or page.url contains 'release' %}selected{% endif %}"><span class="icon-discogs"></span><i>Discography</i></a>
+      <!-- <a href="{{ site.baseurl }}/events" class="{% if page.url contains 'events' or page.url contains 'event' %}selected{% endif %}"><span class="icon-eagle"></span><i>Events</i></a>
+      <a href="{{ site.baseurl }}/friends" class="{% if page.url contains 'friends' %}selected{% endif %}"><span class="icon-eagle"></span><i>Friends</i></a> -->
+    </nav>
+    <nav class="social firm-hover-fx">
+      <a href="https://irukanji.bandcamp.com" target="_blank"><span class="icon-bandcamp"></span><i>bandcamp</i></a>
+      <a href="https://soundcloud.com/irukanji-music" target="_blank"><span class="icon-soundcloud"></span><i>soundcloud</i></a>
+      <a href="https://www.facebook.com/irukanji.music" target="_blank"><span class="icon-facebook-official"></span><i>facebook</i></a>
+    </nav>
+  </header>
 
-    {{ content }}
+  {{ content }}
 
-    <footer class="footer firm-hover-fx">
-        <div class="gigantic">
-            <a href="{{ site.baseurl }}/"><span class="icon-deer"></span></a>
-        </div>
-        <nav class="contact">
-            <div>Contact:</div>
-            <div>email: <a href="mailto:irukanji.music@gmail.com?subject=Hello Irukanji">irukanji.music@gmail.com</a></div>
-            <div>skype: sentimony</div>
-        </nav>
-        <nav class="social">
-            <a href="https://irukanji.bandcamp.com" target="_blank"><span class="icon-bandcamp"></span> bandcamp</a>
-            <a href="https://www.facebook.com/irukanji.music" target="_blank"><span class="icon-facebook-official"></span> facebook</a>
-            <a href="https://soundcloud.com/irukanji-music" target="_blank"><span class="icon-soundcloud"></span> soundcloud</a>
-            <a href="http://coub.com/irukanji.music" target="_blank"><span class="icon-coub"></span> coub</a>
-            <a href="http://www.discogs.com/artist/1375976-Irukanji" target="_blank"><span class="icon-discogs"></span> discogs</a>
-        </nav>
-        <p><span class="icon-spiral1"></span></p>
-        <p class="copyright">Web Development & Design by <a href="http://ihororlovskyi.com" target="_blank">Ihor Orlovskyi <span class="icon-eagle"></span></a></p>
-        <p>Irukanji 2008 - 2015 © All Rights Reserved</p>
-        <p><span class="icon-spiral2"></span></p>
-    </footer>
+  <footer class="footer firm-hover-fx">
+    <div class="gigantic">
+      <a href="{{ site.baseurl }}/"><span class="icon-deer"></span></a>
+    </div>
+    <nav class="contact">
+      <div>Contact:</div>
+      <div><span class="icon-envelope-o"></span> email: <a href="mailto:irukanji.music@gmail.com?subject=Hello Irukanji">irukanji.music@gmail.com</a></div>
+      <div><span class="icon-skype"> skype: sentimony</div>
+    </nav>
+    <nav class="social">
+      <a href="https://irukanji.bandcamp.com" target="_blank"><span class="icon-bandcamp"></span> bandcamp</a>
+      <a href="https://soundcloud.com/irukanji-music" target="_blank"><span class="icon-soundcloud"></span> soundcloud</a>
+      <a href="https://www.facebook.com/irukanji.music" target="_blank"><span class="icon-facebook-official"></span> facebook</a>
+      <br>
+      <a href="http://coub.com/irukanji.music" target="_blank"><span class="icon-coub"></span> coub</a>
+      <a href="https://twitter.com/irukanji_music" target="_blank"><span class="icon-twitter"></span> twitter</a>
+      <a href="http://www.discogs.com/artist/1375976-Irukanji" target="_blank"><span class="icon-discogs"></span> discogs</a>
+    </nav>
+    <p><span class="icon-spiral1"></span></p>
+    <!-- <p class="copyright">Web Development & Design by <a href="http://ihororlovskyi.com" target="_blank">Ihor Orlovskyi <span class="icon-eagle"></span></a></p> -->
+    <p>
+      Irukanji © 2008 - 2015<br>
+      All Rights Reserved
+    </p>
+    <p><span class="icon-spiral2"></span></p>
+  </footer>
 
-    <script src="{{ site.baseurl }}/assets/js/vendor/jquery-1.11.3.min.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/vendor/bootstrap.min.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/vendor/imagesloaded.pkgd.min.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/vendor/isotope.pkgd.min.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/vendor/jquery.waypoints.min.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/vendor/parallax.min.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/vendor/zoom.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/vendor/jquery.fittext.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/vendor/nprogress.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/vendor/layzr.min.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/vendor/holder.min.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/main.js"></script>
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', 'UA-63646319-1', 'auto');
-        ga('send', 'pageview');
-    </script>
+  <script src="{{ site.baseurl }}/assets/js/vendor/jquery-1.11.3.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/vendor/bootstrap.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/vendor/imagesloaded.pkgd.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/vendor/isotope.pkgd.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/vendor/jquery.waypoints.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/vendor/parallax.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/vendor/zoom.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/vendor/jquery.fittext.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/vendor/nprogress.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/vendor/layzr.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/vendor/holder.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-63646319-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 </body>
 </html>
