@@ -24,6 +24,9 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-mixcloud:before {
+    content: "\f289";
+}
 .icon-bandcamp:before {
     content: "\e600";
 }
@@ -45,9 +48,6 @@
 .icon-spiral2:before {
     content: "\e606";
 }
-.icon-facebook-official:before {
-    content: "\f230";
-}
 .icon-soundcloud:before {
     content: "\f1be";
 }
@@ -57,11 +57,17 @@
 .icon-google-plus:before {
     content: "\f0d5";
 }
-.icon-envelope-o:before {
+.icon-email:before {
     content: "\f003";
 }
 .icon-skype:before {
     content: "\f17e";
+}
+.icon-facebook:before {
+    content: "\f09a";
+}
+.icon-lastfm:before {
+    content: "\f202";
 }
 
 
