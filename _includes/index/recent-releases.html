@@ -1,30 +1,46 @@
 <section class="index-releases">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-sm-10 col-sm-offset-1">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
 
-				<h2>Recent Releases</h2>
+        <br>
+        <br>
 
-				<div class="relaselist-container isotope-container">
-					{% for releases in site.categories.releases limit:6 %}
-					<article class="relaselist-item isotope-item">
-						<a href="{{ site.baseurl }}{{ releases.url }}">
-							<div class="image-contour">
-								<img
-									data-layzr="{{ site.baseurl }}/assets/img/releases/{{ releases.release-id }}-sq.jpg"
-									src="holder.js/700x700?auto=yes"
-								>
-							</div>
-							<div class="title">{{ releases.title }}</div>
-							<div class="description">{{ releases.label }}</div>
-						</a>
-					</article>
-					{% endfor %}
-				</div>
+        <iframe 
+          width="100%"
+          height="450"
+          scrolling="no"
+          frameborder="no"
+          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/5771025&amp;color=00aabb&amp;auto_play=false&amp;hide_related=true&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false">
+        </iframe>
 
-				<a href="{{ site.baseurl }}/discography" class="button"><span class="icon-discogs"></span>  Veiw full discography</a>
+        <br>
+        <br>
+        <br>
+        <br>
 
-			</div>
-		</div>
-	</div>
+        <h2>Recent Releases</h2>
+
+        <div class="relaselist-container isotope-container">
+          {% for releases in site.categories.releases limit:4 %}
+          <article class="relaselist-item isotope-item">
+            <a href="{{ site.baseurl }}{{ releases.url }}">
+              <div class="image-contour">
+                <img
+                  data-layzr="{{ site.baseurl }}/assets/img/releases/{{ releases.release-id }}-sq.jpg"
+                  src="holder.js/700x700?auto=yes"
+                >
+              </div>
+              <div class="title">{{ releases.title }}</div>
+              <div class="description">{{ releases.label }}</div>
+            </a>
+          </article>
+          {% endfor %}
+        </div>
+
+        <a href="{{ site.baseurl }}/discography" class="button"><span class="icon-discogs"></span>  Veiw full discography</a>
+
+      </div>
+    </div>
+  </div>
 </section>
