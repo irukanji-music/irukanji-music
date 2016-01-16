@@ -126,6 +126,14 @@
     bottom: 20px;
     right: 20px;
   }
+
+  a {
+    [class^="icon-"] {
+      // margin-right: 4px;
+      position: relative;
+      top: 2px;
+    }
+  }
 }
 
 /**
