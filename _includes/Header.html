@@ -1,0 +1,41 @@
+<header class="header">
+
+  <nav class="brand firm-hover-fx">
+    <!-- <a href="{{ site.baseurl }}/">
+      <span class="icon-deer"></span>
+      <i>Irukanji</i>
+    </a> -->
+    <a href="{{ site.baseurl }}/" class="{% if page.url == '/' %}selected{% endif %}">
+      <span class="icon-deer"></span>
+      <i>Irukanji</i>
+    </a>
+    <a href="{{ site.baseurl }}/discography" class="{% if page.url contains 'discography' or page.url contains 'release' %}selected{% endif %}">
+      <span class="icon-discogs"></span>
+      <i>Discography</i>
+    </a>
+    <!-- <a href="{{ site.baseurl }}/events" class="{% if page.url contains 'events' or page.url contains 'event' %}selected{% endif %}">
+      <span class="icon-eagle"></span>
+      <i>Events</i>
+    </a>
+    <a href="{{ site.baseurl }}/friends" class="{% if page.url contains 'friends' %}selected{% endif %}">
+      <span class="icon-eagle"></span>
+      <i>Friends</i>
+    </a> -->
+  </nav>
+
+  <nav class="social firm-hover-fx">
+    <a href="https://irukanji.bandcamp.com" target="_blank">
+      <span class="icon-bandcamp"></span>
+      <i>bandcamp</i>
+    </a>
+    <a href="https://soundcloud.com/irukanji-music" target="_blank">
+      <span class="icon-soundcloud"></span>
+      <i>soundcloud</i>
+    </a>
+    <a href="https://www.facebook.com/irukanji.music" target="_blank">
+      <span class="icon-facebook"></span>
+      <i>facebook</i>
+    </a>
+  </nav>
+
+</header>

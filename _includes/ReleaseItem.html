@@ -1,0 +1,12 @@
+<article class="relaselist-item isotope-item">
+  <a href="{{ site.baseurl }}{{ releases.url }}">
+    <div class="image-contour">
+      <img
+        data-layzr="{{ site.baseurl }}/assets/img/releases/{{ releases.release-id }}-sq.jpg"
+        src="holder.js/700x700?auto=yes&text={{ releases.title }} \n ({{ releases.label }})&fg=000&bg=8ff&font=Helvetica"
+      >
+    </div>
+    <div class="title">{{ releases.title }}</div>
+    <div class="description">{{ releases.label }}</div>
+  </a>
+</article>

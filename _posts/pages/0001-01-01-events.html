@@ -10,30 +10,30 @@ permalink: /events/
 ---
 
 <div class="parallax-window" data-parallax="scroll" data-image-src="{{ site.baseurl }}/assets/img/events-head.jpg">
-	<h1><span class="icon-eagle"></span> Events</h1>
+  <h1><span class="icon-eagle"></span> Events</h1>
 </div>
 
 <section class="events-page">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-sm-6 col-sm-offset-3">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
 
-				<div class="isotope-container">
-					{% for events in site.categories.events %}
+        <div class="isotope-container">
+          {% for events in site.categories.events %}
 
-					<article class="isotope-item">
-						<span>{{ events.date | date: "%d.%m.%Y" }}</span> - 
-						<span>{{ events.title }}</span> | 
-						<a href="{{ events.fb-link }}" target="_blank"><span class="icon-facebook"></span></a>
-					</article>
+          <article class="isotope-item">
+            <span>{{ events.date | date: "%d.%m.%Y" }}</span> - 
+            <span>{{ events.title }}</span> | 
+            <a href="{{ events.fb-link }}" target="_blank"><span class="icon-facebook"></span></a>
+          </article>
 
-					{% endfor %}
+          {% endfor %}
 
-					<p class="isotope-item">and more . . .</p>
+          <p class="isotope-item">and more . . .</p>
 
-				</div>
+        </div>
 
-			</div>
-		</div>
-	</div>
+      </div>
+    </div>
+  </div>
 </section>

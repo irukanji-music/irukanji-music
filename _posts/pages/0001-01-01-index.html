@@ -9,6 +9,88 @@ og-image: index-og.jpg
 permalink: /
 ---
 
-{% include index/header.html %}
-{% include index/recent-releases.html %}
-{% include index/bandcamp-all.html %}
+<div class="index-head">
+  <div class="overlay"></div>
+  <div class="content">
+    <hgroup>
+      <h1>Irukanji</h1>
+      <h2>Electronic Psychedelic Music</h2>
+    </hgroup>
+  </div>
+</div>
+
+<iframe class="soundcloud-iframe" 
+  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/5771025&amp;color=00aabb&amp;hide_related=true&amp;show_comments=true&amp;show_user=false&amp;sharing=false&amp;show_bpm=true">
+</iframe>
+
+<section class="index-releases">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+
+        <h2>Recent Releases</h2>
+
+        <div class="relaselist-container isotope-container">
+          {% for releases in site.categories.releases limit:4 %}
+            {% include ReleaseItem.html %}
+          {% endfor %}
+        </div>
+
+        <a href="{{ site.baseurl }}/discography" class="btn"><span class="icon-discogs"></span>  Veiw full discography</a>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="index-bandcamp">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+        <div class="donate-me">
+
+          <p>Download Irukanji music for free (mp3, flac, wav) and if you like it, please make donate easily using <a href="https://irukanji.bandcamp.com" target="_blank"><span class="icon-bandcamp"></span> bandcamp</a>:</p>
+
+          <hr>
+
+          <div class="row">
+            <div class="col-sm-4">
+
+              <p class="more">Tracks from compilations</p>
+
+              <section><iframe style="height:640px;" src="http://bandcamp.com/EmbeddedPlayer/v=2/album=2563369517/track=52697559/layout=http_3A_2F_2Fbandcamp-play.github.io_2Firukanji-album.json/bgcol=333/linkcol=88ffff/debug=true/" allowtransparency="true" frameborder="0"></iframe></section>
+
+            </div>
+            <div class="col-sm-4">
+
+              <p class="more">
+                Irukanji "Z Lisu"
+                <a href="{{ site.baseurl }}/release/irukanji-z-lisu">
+                  <span class="icon-bandcamp"></span>
+                </a>
+              </p>
+
+              <section><iframe style="height:360px;" src="http://bandcamp.com/EmbeddedPlayer/v=2/album=2581336461/layout=http_3A_2F_2Fbandcamp-play.github.io_2Firukanji-album.json/bgcol=333/linkcol=88ffff/debug=true/" allowtransparency="true" frameborder="0"></iframe></section>
+
+            </div>
+            <div class="col-sm-4">
+
+              <p class="more">
+                Sphingida "Origin"
+                <a href="{{ site.baseurl }}/release/sphingida-origin">
+                  <span class="icon-bandcamp"></span>
+                </a>
+              </p>
+
+              <section><iframe style="height:360px;" src="http://bandcamp.com/EmbeddedPlayer/v=2/album=728290111/layout=http_3A_2F_2Fbandcamp-play.github.io_2Firukanji-album.json/bgcol=333/linkcol=88ffff/debug=true/" allowtransparency="true" frameborder="0"></iframe></section>
+
+            </div>
+          </div>
+
+          <div class="thanks">Huge thanks for your support!</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
