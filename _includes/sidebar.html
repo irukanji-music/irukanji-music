@@ -1,17 +1,17 @@
 <aside>
 
-	<div class="isotope-container">
-		{% for releases in site.categories.releases %}
-		<article class="isotope-item">
-			<a href="{{ site.baseurl }}{{ releases.url }}">
-				<div class="image-contour">
-					<img src="{{ site.baseurl }}/assets/img/releases/{{ releases.release-id }}-th.jpg" alt="{{ releases.title }}">
-				</div>
-				<div>{{ releases.title }}</div>
-				<small>{{ releases.date | date: "%Y" }}</small>
-			</a>
-		</article>
-		{% endfor %}
-	</div>
+  <div class="isotope-container">
+    {% for releases in site.categories.releases %}
+    <article class="isotope-item">
+      <a href="{{ site.baseurl }}{{ releases.url }}">
+        <div class="image-contour">
+          <img src="{{ site.baseurl }}/assets/img/releases/{{ releases.release-id }}-th.jpg" alt="{{ releases.title }}">
+        </div>
+        <div>{{ releases.title }}</div>
+        <small>{{ releases.date | date: "%Y" }}</small>
+      </a>
+    </article>
+    {% endfor %}
+  </div>
 
 </aside>
