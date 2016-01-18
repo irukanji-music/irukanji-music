@@ -1,12 +1,27 @@
 ---
 ---
 
-@import 'vendor/bourbon/bourbon';
 @import 'vendor/icomoon';
+@import 'vendor/normalize';
+@import 'vendor/custom-bootstrap';
+@import 'vendor/animate';
+@import 'vendor/bourbon/bourbon';
+@import 'grid-settings';
+@import 'vendor/neat/neat';
 
-@import '1-tools/-tools-index';
 @import 'base';
-@import '3-modules/-modules-index';
-@import '4-pages/-pages-index';
+
+@import 'vendor/zoom';
+
+@import 'header-menu';
+@import 'sidebar';
+@import 'buttons';
+@import 'parallax-window';
+
+@import 'index-page';
+@import 'release-page';
+@import 'events-page';
+
+@import 'recent-releases';
 @import 'soundcloud-iframe';
 @import 'footer';

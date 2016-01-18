@@ -1,0 +1,33 @@
+main.outer-container {
+  @include outer-container;
+  text-align: center;
+
+  section.recent-releases {
+    @include span-columns(10);
+    @include shift(1);
+
+    .releases-container {
+
+      article.release-item {
+          @include span-columns(4);
+          @include omega(3n);
+
+          a.image-link {
+          img {
+            width: 100%;
+            height: auto;
+            display: block;
+          }
+        }
+        .text-container {
+          a.title-link {
+
+          }
+          .description {
+
+          }
+        }
+      }
+    }
+  }
+}
