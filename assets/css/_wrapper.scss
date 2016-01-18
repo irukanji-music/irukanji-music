@@ -1,0 +1,4 @@
+main.wrapper {
+  @include outer-container;
+  text-align: center;
+}

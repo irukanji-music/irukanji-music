@@ -1,31 +1,54 @@
-main.outer-container {
-  @include outer-container;
-  text-align: center;
+section.recent-releases {
+  @include span-columns(10);
+  @include shift(1);
+  margin-bottom: 80px;
 
-  section.recent-releases {
-    @include span-columns(10);
-    @include shift(1);
+  .releases-container {
+    @include clearfix;
+    margin: 0 -8px 20px;
 
-    .releases-container {
+    article.release-item {
+      float: left;
+      padding: 0 8px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
 
-      article.release-item {
-          @include span-columns(4);
-          @include omega(3n);
+      @include media($One) {
+        width: 100%;
+      }
 
-          a.image-link {
-          img {
-            width: 100%;
-            height: auto;
-            display: block;
-          }
+      @include media($Two) {
+        width: 50%;
+      }
+
+      @include media($Three) {
+        width: 33.333333%;
+      }
+
+      // @include media($ThreeSidebar) {
+      //   width: 25%;
+      // }
+
+      @include media($Four) {
+        width: 16.666666%;
+      }
+
+      a.image-link {
+        display: block;
+        margin-bottom: 10px;
+
+        img {
+          width: 100%;
+          height: auto;
+          display: block;
         }
-        .text-container {
-          a.title-link {
+      }
+      .text-container {
+        a.title-link {
 
-          }
-          .description {
+        }
+        .description {
 
-          }
         }
       }
     }
