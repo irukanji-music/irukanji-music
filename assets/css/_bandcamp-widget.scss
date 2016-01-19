@@ -1,0 +1,65 @@
+.bandcamp-widget {
+  background-color: $bg-color;
+  $bg-color-gradient: lighten($bg-color, 20%);
+  background-image: repeating-radial-gradient(circle at 50% 50%, $bg-color-gradient 50%, transparent 55%);
+  background-size: 30px 30px;
+  position: relative;
+  padding: 16px;
+  margin: 0 0 80px;
+  border: 1px solid #4e4e4e;
+  box-sizing: border-box;
+
+  p {
+    a {
+      [class^="icon-"] {
+        position: relative;
+        top: 2px;
+      }
+    }
+  }
+
+  .bandcamp-list {
+    @include clearfix;
+
+    .bandcamp-item {
+      margin-bottom: 16px;
+      float: left;
+
+      @include media($One) {
+        width: 100%;
+      }
+
+      @include media($Three) {
+        width: 50%;
+      }
+
+      @include media($ThreeSidebar) {
+        width: 33.333333%;
+      }
+
+      iframe {
+        display: inline-block;
+        width: 100%;
+        overflow: hidden;
+        max-width: 320px;
+        border: 1px solid #4e4e4e;
+        box-sizing: border-box;
+      }
+    }
+  }
+
+  .thanks {
+    // position: absolute;
+    // bottom: 20px;
+    // right: 20px;
+  }
+
+  @include media($One) {
+    @include span-columns(12);
+  }
+
+  @include media($Three) {
+    @include span-columns(10);
+    @include shift(1);
+  }
+}
