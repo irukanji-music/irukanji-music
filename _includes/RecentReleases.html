@@ -1,18 +1,10 @@
-<section class="recent-releases">
-  <div class="widget-title">Recent Releases</div>
+<section class="recent-releases-widget">
+
+  <h2><span class="icon-discogs"></span> Recent Releases</h2>
 
   <div class="releases-container">
     {% for releases in site.categories.releases limit:8 %}
-      <a class="release-item" href="{{ site.baseurl }}{{ releases.url }}">
-        <div class="image-container">
-          <img data-layzr="{{ site.baseurl }}/assets/img/releases/{{ releases.release-id }}-sq.jpg"
-          src="holder.js/700x700?auto=yes&text={{ releases.title }} \n ({{ releases.label }})&fg=000&bg=8ff&font=Helvetica">
-        </div>
-        <div class="text-container">
-          <div class="release-title" href="{{ site.baseurl }}{{ releases.url }}">{{ releases.title }}</div>
-          <div class="release-description">{{ releases.label }}</div>
-        </div>
-      </a>
+      {% include ReleaseItem.html %}
     {% endfor %}
   </div>
 

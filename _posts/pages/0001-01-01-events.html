@@ -9,31 +9,30 @@ og-image: events-og.jpg
 permalink: /events/
 ---
 
-<div class="parallax-window" data-parallax="scroll" data-image-src="{{ site.baseurl }}/assets/img/events-head.jpg">
-  <h1><span class="icon-eagle"></span> Events</h1>
-</div>
+<br>
+<br>
+<br>
+<br>
 
-<section class="events-page">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-6 col-sm-offset-3">
+<main class="wrapper">
+  <section class="events-page">
 
-        <div class="isotope-container">
-          {% for events in site.categories.events %}
+    <h2><span class="icon-eagle"></span> Events</h2>
 
-          <article class="isotope-item">
-            <span>{{ events.date | date: "%d.%m.%Y" }}</span> - 
-            <span>{{ events.title }}</span> | 
-            <a href="{{ events.fb-link }}" target="_blank"><span class="icon-facebook"></span></a>
-          </article>
+    <div class="events-container">
+      {% for events in site.categories.events %}
 
-          {% endfor %}
+        <article class="event-item">
+          <span>{{ events.date | date: "%d.%m.%Y" }}</span> - 
+          <span>{{ events.title }}</span> | 
+          <a href="{{ events.fb-link }}" target="_blank"><span class="icon-facebook"></span></a>
+        </article>
 
-          <p class="isotope-item">and more . . .</p>
+      {% endfor %}
 
-        </div>
+      <div>and more . . .</div>
 
-      </div>
     </div>
-  </div>
-</section>
+
+  </section>
+</main>

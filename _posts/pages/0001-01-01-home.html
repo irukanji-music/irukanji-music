@@ -19,26 +19,6 @@ permalink: /
   </div>
 </div>
 
-<!-- <section class="index-releases">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-10 col-sm-offset-1">
-
-        <h2>Recent Releases</h2>
-
-        <div class="relaselist-container isotope-container">
-          {% for releases in site.categories.releases limit:4 %}
-            {% include ReleaseItem.html %}
-          {% endfor %}
-        </div>
-
-        <a href="{{ site.baseurl }}/discography" class="btn"><span class="icon-discogs"></span> Veiw full discography</a>
-
-      </div>
-    </div>
-  </div>
-</section> -->
-
 <main class="wrapper">
   {% include RecentReleases.html %}
   {% include SoundcloudIframe.html %}

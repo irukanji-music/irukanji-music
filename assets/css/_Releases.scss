@@ -1,0 +1,129 @@
+.discography-page {
+  margin-bottom: 80px;
+
+  @include media($One) {
+    @include span-columns(12);
+  }
+
+  @include media($Three) {
+    @include span-columns(10);
+    @include shift(1);
+  }
+}
+
+.recent-releases-widget {
+  margin-bottom: 80px;
+
+  @include media($One) {
+    @include span-columns(12);
+  }
+
+  @include media($Three) {
+    @include span-columns(10);
+    @include shift(1);
+  }
+
+  .releases-container {
+    .release-item {
+
+      @include media($One) {
+        &:nth-child(5),
+        &:nth-child(6),
+        &:nth-child(7),
+        &:nth-child(8) {
+          display: none;
+        }
+      }
+
+      @include media($Two) {
+        &:nth-child(5),
+        &:nth-child(6) {
+          display: block;
+        }
+      }
+
+      // @include media($Three) {
+      // }
+
+      // @include media($ThreeSidebar) {
+      // }
+
+      @include media($Four) {
+        &:nth-child(7),
+        &:nth-child(8) {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.releases-container {
+  @include clearfix;
+  margin: 0 -8px 16px;
+
+  .release-item {
+    position: relative;
+    float: left;
+    padding: 0 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+
+    .image-container {
+      margin-bottom: 8px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+        @include transition(transform 3.0s $ease-out-quint);
+        @include transform(scale(1.0) translateZ(0));
+      }
+    }
+
+    .text-container {
+      // position: absolute;
+      // bottom: 0;
+      // left: 0;
+      // width: 100%;
+      // background: rgba(#000, .75);
+      // padding: 8px;
+      // box-sizing: border-box;
+
+      .release-title {
+        text-transform: uppercase;
+        font-size: 14px;
+        @include ellipsis(100%);
+        display: block;
+      }
+      .release-description {
+        font-size: 10px;
+        @include ellipsis(100%);
+        display: block;
+      }
+    }
+
+    @include media($One) {
+      width: 100%;
+    }
+
+    @include media($Two) {
+      width: 50%;
+    }
+
+    @include media($Three) {
+      width: 33.333333%;
+      &:hover .image-container img {
+        @include transform(scale(1.2) translateZ(0));
+      }
+    }
+
+    // @include media($ThreeSidebar) {
+    // }
+
+    @include media($Four) {
+      width: 25%;
+    }
+  }
+}

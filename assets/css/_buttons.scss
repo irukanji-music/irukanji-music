@@ -2,28 +2,27 @@
 buttons
 ---------------------------------------------------------------------------------------------------- */
 a.btn {
-	display: inline-block;
-	border: 2px solid $accent-color;
-	padding: 18px 26px;
-	text-transform: uppercase;
-	font-weight: 700;
-	font-size: 18px;
-	letter-spacing: 1px;
+  display: inline-block;
+  border: 2px solid $accent-color;
+  padding: 18px 26px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1px;
 
-	[class^="icon-"] {
-		font-size: 24px;
-		margin-right: 4px;
-		position: relative;
-		top: 3px;
-	}
+  [class^="icon-"] {
+    font-size: 24px;
+    margin-right: 4px;
+    position: relative;
+    top: 3px;
+  }
 
-	&:hover {
-		color: $link-color-hover;
-		border-color: $link-color-hover;
-	}
+  &:hover {
+    color: $link-color-hover;
+    border-color: $link-color-hover;
+  }
 
-	&:active {
-		
-	}
-
+  &:active {
+    
+  }
 }

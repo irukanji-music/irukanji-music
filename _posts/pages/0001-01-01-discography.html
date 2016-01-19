@@ -9,30 +9,20 @@ og-image: discography-og.jpg
 permalink: /discography/
 ---
 
-<!-- <div class="parallax-window" data-parallax="scroll" data-image-src="{{ site.baseurl }}/assets/img/discography-head.jpg">
-  <h1><span class="icon-discogs"></span> Discography</h1>
-</div>
- -->
-
 <br>
 <br>
 <br>
 <br>
 
-<section class="index-releases">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-10 col-sm-offset-1">
+<main class="wrapper">
+  <section class="discography-page">
 
-        <h2><span class="icon-discogs"></span> Discography</h2>
+    <h2><span class="icon-discogs"></span> Discography</h2>
 
-        <div class="relaselist-container isotope-container">
-          {% for releases in site.categories.releases %}
-            {% include ReleaseItem.html %}
-          {% endfor %}
-        </div>
-
-      </div>
+    <div class="releases-container">
+      {% for releases in site.categories.releases %}
+        {% include ReleaseItem.html %}
+      {% endfor %}
     </div>
-  </div>
-</section>
+  </section>
+</main>

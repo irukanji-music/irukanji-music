@@ -1,5 +1,8 @@
 main.wrapper {
   @include outer-container;
+  // @include clearfix;
   text-align: center;
   padding: 0 16px;
+  max-width: 1792px;
+  margin: 0 auto;
 }
