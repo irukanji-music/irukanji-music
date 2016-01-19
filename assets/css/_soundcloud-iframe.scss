@@ -1,6 +1,4 @@
 .soundcloud-iframe {
-  @include span-columns(10);
-  @include shift(1);
   margin-bottom: 80px;
 
   iframe {
@@ -10,5 +8,14 @@
     display: block;
     border: none;
     margin: 0 auto;
+  }
+
+  @include media($One) {
+    @include span-columns(12);
+  }
+
+  @include media($Three) {
+    @include span-columns(10);
+    @include shift(1);
   }
 }

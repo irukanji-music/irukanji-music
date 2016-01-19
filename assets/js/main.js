@@ -148,9 +148,13 @@ $(document).ready(function() {
 */
 // $('.index-head hgroup h1').fitText(0.75);
 // $('.index-head hgroup h2').fitText(3.75);
+$('.parallax-window h1').fitText(1.50);
+
 $('.index-releases .title').fitText(1.25);
 $('.index-releases .description').fitText(2.00);
-$('.parallax-window h1').fitText(1.5);
+
+// $('.release-title').fitText(1.25);
+// $('.release-description').fitText(2.00);
 
 
 /**
