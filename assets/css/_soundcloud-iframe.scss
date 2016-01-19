@@ -8,6 +8,9 @@
     display: block;
     border: none;
     margin: 0 auto;
+    background: #333;
+    border-radius: 4px;
+    overflow: hidden;
   }
 
   @include media($One) {

@@ -11,4 +11,13 @@
   section {
     margin-bottom: 16px;
   }
+
+  @include media($One) {
+    @include span-columns(12);
+  }
+
+  @include media($Three) {
+    @include span-columns(7);
+    @include shift(1);
+  }
 }

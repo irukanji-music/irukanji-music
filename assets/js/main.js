@@ -4,17 +4,17 @@
 */
 var $head = $( 'header' );
 $('.header-waypoint').each( function(i) {
-	var $el = $( this ),
-		animClassDown = $el.data( 'animateDown' ),
-		animClassUp = $el.data( 'animateUp' );
-	$el.waypoint( function( direction ) {
-		if( direction === 'down' && animClassDown ) {
-			$head.attr('class', 'header ' + animClassDown);
-		}
-		else if( direction === 'up' && animClassUp ){
-			$head.attr('class', 'header ' + animClassUp);
-		}
-	}, { offset: '-40%' } );
+  var $el = $( this ),
+    animClassDown = $el.data( 'animateDown' ),
+    animClassUp = $el.data( 'animateUp' );
+  $el.waypoint( function( direction ) {
+    if( direction === 'down' && animClassDown ) {
+      $head.attr('class', 'header ' + animClassDown);
+    }
+    else if( direction === 'up' && animClassUp ){
+      $head.attr('class', 'header ' + animClassUp);
+    }
+  }, { offset: '-40%' } );
 });
 
 
@@ -32,14 +32,14 @@ $('.parallax-window h1').fitText(1.50);
 * http://callmecavs.github.io/layzr.js/
 */
 var layzr = new Layzr({
-	// container: null,
-	// selector: '[data-layzr]',
-	// attr: 'data-layzr',
-	// retinaAttr: 'data-layzr-retina',
-	// bgAttr: 'data-layzr-bg',
-	// hiddenAttr: 'data-layzr-hidden',
-	// threshold: 0,
-	// callback: null
+  // container: null,
+  // selector: '[data-layzr]',
+  // attr: 'data-layzr',
+  // retinaAttr: 'data-layzr-retina',
+  // bgAttr: 'data-layzr-bg',
+  // hiddenAttr: 'data-layzr-hidden',
+  threshold: -75,
+  // callback: null
 });
 
 

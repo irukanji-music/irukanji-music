@@ -1,7 +1,10 @@
 <a class="release-item" href="{{ site.baseurl }}{{ releases.url }}">
   <div class="image-container">
-    <img data-layzr="{{ site.baseurl }}/assets/img/releases/{{ releases.release-id }}-sq.jpg"
-    src="holder.js/700x700?auto=yes&text={{ releases.title }} \n ({{ releases.label }})&fg=000&bg=8ff&font=Helvetica">
+    <img 
+      data-src="holder.js/700x700?auto=yes&text={{ releases.title }} \n ({{ releases.label }})&fg=000&bg=8ff"
+      data-layzr="{{ site.baseurl }}/assets/img/releases/{{ releases.release-id }}-sq.jpg"
+      data-layzr-retina="{{ site.baseurl }}/assets/img/releases/{{ releases.release-id }}-sq.jpg"
+    >
   </div>
   <div class="text-container">
     <div class="release-title" href="{{ site.baseurl }}{{ releases.url }}">{{ releases.title }}</div>
