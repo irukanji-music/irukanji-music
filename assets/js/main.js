@@ -38,7 +38,7 @@ var layzr = new Layzr({
   // retinaAttr: 'data-layzr-retina',
   // bgAttr: 'data-layzr-bg',
   // hiddenAttr: 'data-layzr-hidden',
-  threshold: -75,
+  threshold: 0,
   // callback: null
 });
 
