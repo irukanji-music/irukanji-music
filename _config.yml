@@ -1,12 +1,5 @@
-# Build settings
-baseurl: 
-markdown: kramdown
-permalink: pretty
-
-host: 0.0.0.0
-port: 7005
-
-exclude: ['README.md']
+baseurl: 'irukanji-music-jekyll'
+exclude: ['README.md', CNAME]
 
 sass:
   sass_dir: assets/css
