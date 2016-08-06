@@ -1,4 +1,4 @@
-baseurl: 'irukanji-music-jekyll'
+baseurl: '/irukanji-music-jekyll'
 exclude: ['README.md', CNAME]
 
 sass:
