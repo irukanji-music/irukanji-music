@@ -6,51 +6,81 @@ layout: compress
 <html lang="en-US" class="header-waypoint" data-animate-down="header-down" data-animate-up="header-up">
 <head>
 
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title }} · {% endif %}Irukanji Music{% if page.titleAfter %} · {{ page.titleAfter }}{% endif %}</title>
-  <meta name="description" content="{{ page.meta }}">
-  <meta name="keywords" content="{% if page.keywords %}{{page.keywords}},{% endif %} {{site.keywords}}">
-  <meta property="og:site_name" content="Irukanji Music">
-  <link rel="canonical" href="{{ site.basedomain }}{{ site.baseurl }}{{ page.permalink }}">
-  <meta property="og:locale" content="en_US">
-  <meta property="og:type" content="article">
-  <meta property="article:author" content="https://www.facebook.com/irukanji.music">
-  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% endif %}{% if page.titleAfter %}Irukanji Music{% endif %}">
-  <meta property="og:description" content="{{ page.meta }}">
-  <meta property="og:url" content="{{ site.basedomain }}{{ site.baseurl }}{{ page.permalink }}">
-  <meta property="og:image" content="{{ site.basedomain }}{{ site.baseurl }}/assets/img/{{ page.og-image }}">
-  <meta property="og:image:width" content="1024">
-  <meta property="og:image:height" content="538">
+    <title>{% if page.title %}{{ page.title }} · {% endif %}Irukanji Music{% if page.titleAfter %} · {{ page.titleAfter }}{% endif %}</title>
+    <meta name="description" content="{{ page.meta }}">
+    <meta name="keywords" content="{% if page.keywords %}{{page.keywords}},{% endif %} {{site.keywords}}">
+    <meta property="og:site_name" content="Irukanji Music">
+    <link rel="canonical" href="{{ site.basedomain }}{{ site.baseurl }}{{ page.permalink }}">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="article:author" content="https://www.facebook.com/irukanji.music">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% endif %}{% if page.titleAfter %}Irukanji Music{% endif %}">
+    <meta property="og:description" content="{{ page.meta }}">
+    <meta property="og:url" content="{{ site.basedomain }}{{ site.baseurl }}{{ page.permalink }}">
+    <meta property="og:image" content="{{ site.basedomain }}{{ site.baseurl }}/assets/img/{{ page.og-image }}">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="538">
 
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
-  <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/favicons/favicon-32.png">
-  <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/img/favicons/favicon-144.png">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+    <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/favicons/favicon-32.png">
+    <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/img/favicons/favicon-144.png">
 </head>
 <body>
 
-  {% include Header.html %}
+    {% include Header.html %}
 
-  {{ content }}
+    {{ content }}
 
-  {% include Footer.html %}
+    {% include Footer.html %}
 
-  <script src="{{ site.baseurl }}/assets/js/vendor/jquery-1.11.3.min.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/vendor/jquery.waypoints.min.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/vendor/simple-parallax.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/vendor/jquery.fittext.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/vendor/layzr.min.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/vendor/holder.min.js"></script>
-  <script src="{{ site.baseurl }}/assets/js/main.js"></script>
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-63646319-1', 'auto');
-    ga('send', 'pageview');
-  </script>
+    <script src="{{ site.baseurl }}/assets/js/vendor/jquery-1.11.3.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/vendor/jquery.waypoints.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/vendor/simple-parallax.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/vendor/jquery.fittext.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/vendor/layzr.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/vendor/holder.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+
+    <script type="text/javascript">
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter38904765 = new Ya.Metrika({
+                        id:38904765,
+                        clickmap:true,
+                        trackLinks:true,
+                        accurateTrackBounce:true,
+                        webvisor:true,
+                        trackHash:true
+                    });
+                } catch(e) { }
+            });
+
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/38904765" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-63646319-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 </body>
 </html>
