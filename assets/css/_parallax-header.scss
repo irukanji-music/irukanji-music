@@ -1,78 +1,78 @@
 .index-head {
-  height: 100%;
-  width: 100%;
-  position: relative;
-  text-align: center;
-  // background: #000 url(/assets/img/kaleidoskopie2014-q70-lsd1.jpg) center no-repeat;
-  background: #000 url(/assets/img/index-parallax.jpg) center no-repeat;
-  background-size: cover;
-  margin-bottom: 80px;
-
-  .content {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    
-    hgroup {
-      position: absolute;
-      top: 50%;
-      left: 0;
-      @include transform(translateY(-50%));
-      display: inline-block;
-      // border: 10px solid #fff;
-      // background: rgba(0,0,0,.5);
-      text-shadow: 1px 1px 1px #000, -1px -1px 11px #000;
-      // padding: 30px 20%;
-      padding: 0 5%;
-      width: 100%;
-      box-sizing: border-box;
-      @media (min-width: 768px) {& {padding: 0 10%;}}
-      @media (min-width: 992px) {& {padding: 0 15%;}}
-      @media (min-width: 1200px) {& {padding: 0 20%;}}
-
-      h1 {
-        color: #fff;
-        margin: 0 0 0.1em;
-        letter-spacing: 0.3em;
-        // font-family: 'Neuton', serif;
-        // font-weight: 300;
-        font-weight: 300;
-        font-size: 38.4px;
-        // @media (min-width: 320px) {& {font-size: 38.4px;}}
-        @media (min-width: 568px) {& {font-size: 68.3px;}}
-        @media (min-width: 768px) {& {font-size: 81.9px;}}
-        @media (min-width: 992px) {& {font-size: 92.5px;}}
-        @media (min-width: 1200px) {& {font-size: 96px;}}
-      }
-
-      h2 {
-        color: #fff;
-        margin: 0;
-        letter-spacing: 0.575em;
-        // font-weight: 700;
-        font-weight: 300;
-        font-size: 7.68px;
-        // @media (min-width: 320px) {& {font-size: 7.68px;}}
-        @media (min-width: 568px) {& {font-size: 13.6px;}}
-        @media (min-width: 768px) {& {font-size: 16.4px;}}
-        @media (min-width: 992px) {& {font-size: 18.5px;}}
-        @media (min-width: 1200px) {& {font-size: 19.2px;}}
-      }
-    }
-  }
-
-  .overlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    text-align: center;
     // background: #000 url(/assets/img/kaleidoskopie2014-q70-lsd1.jpg) center no-repeat;
-    // background-size: cover;
-    background: #000;
-    z-index: 0;
-    opacity: 0;
-  }
+    background: #000 url(../img/index-parallax.jpg) center no-repeat;
+    background-size: cover;
+    margin-bottom: 80px;
+
+    .content {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        
+        .hgroup {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            @include transform(translateY(-50%));
+            display: inline-block;
+            // border: 10px solid #fff;
+            // background: rgba(0,0,0,.5);
+            text-shadow: 1px 1px 1px #000, -1px -1px 11px #000;
+            // padding: 30px 20%;
+            padding: 0 5%;
+            width: 100%;
+            box-sizing: border-box;
+            @media (min-width: 768px) {& {padding: 0 10%;}}
+            @media (min-width: 992px) {& {padding: 0 15%;}}
+            @media (min-width: 1200px) {& {padding: 0 20%;}}
+
+            h1 {
+                color: #fff;
+                margin: 0 0 0.1em;
+                letter-spacing: 0.3em;
+                // font-family: 'Neuton', serif;
+                // font-weight: 300;
+                font-weight: 300;
+                font-size: 38.4px;
+                // @media (min-width: 320px) {& {font-size: 38.4px;}}
+                @media (min-width: 568px) {& {font-size: 68.3px;}}
+                @media (min-width: 768px) {& {font-size: 81.9px;}}
+                @media (min-width: 992px) {& {font-size: 92.5px;}}
+                @media (min-width: 1200px) {& {font-size: 96px;}}
+            }
+
+            h2 {
+                color: #fff;
+                margin: 0;
+                letter-spacing: 0.575em;
+                // font-weight: 700;
+                font-weight: 300;
+                font-size: 7.68px;
+                // @media (min-width: 320px) {& {font-size: 7.68px;}}
+                @media (min-width: 568px) {& {font-size: 13.6px;}}
+                @media (min-width: 768px) {& {font-size: 16.4px;}}
+                @media (min-width: 992px) {& {font-size: 18.5px;}}
+                @media (min-width: 1200px) {& {font-size: 19.2px;}}
+            }
+        }
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        // background: #000 url(/assets/img/kaleidoskopie2014-q70-lsd1.jpg) center no-repeat;
+        // background-size: cover;
+        background: #000;
+        z-index: 0;
+        opacity: 0;
+    }
 }
