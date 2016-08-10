@@ -1,4 +1,6 @@
 .DS_Store
-.sass-cache/*
-_site/*
-*.db
+.idea
+.sass-cache
+_site
+node_modules
+npm-debug.log

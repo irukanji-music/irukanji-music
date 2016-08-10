@@ -1,5 +1,8 @@
 baseurl: '/irukanji-music-jekyll'
-exclude: ['README.md', CNAME]
+include: ['_pages']
+exclude: ['README.md', 'node_modules', 'gulpfile.js', 'package.json']
+# includes_dir: ./_components
+# data_dir: ./_components
 
 sass:
   sass_dir: assets/css
