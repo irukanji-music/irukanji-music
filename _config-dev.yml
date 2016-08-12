@@ -1,9 +1,8 @@
-baseurl: '/irukanji-music-jekyll'
+baseurl: ''
 include: ['_pages']
 exclude: ['README.md', 'node_modules', 'gulpfile.js', 'package.json']
 includes_dir: ./_components
 data_dir: ./_components
 
 keywords: 'irukanji, psychedelic, electronic'
-basedomain: http://irukanji-music.com
-
+basedomain: 'http://irukanji-music.com'

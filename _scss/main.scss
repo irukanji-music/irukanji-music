@@ -1,6 +1,3 @@
----
----
-
 @import 'vendor/icomoon';
 @import 'vendor/normalize';
 @import 'vendor/bourbon/bourbon';
@@ -8,19 +5,16 @@
 @import 'vendor/neat/neat';
 
 @import 'base';
-
-@import 'header-menu';
+@import '_components/Header/style';
 @import 'sidebar';
 @import 'buttons';
-
 @import 'parallax-header';
 @import 'PageRelease';
 @import 'donate-me';
 @import 'events';
 @import 'friends';
-
 @import 'wrapper';
 @import 'Releases';
 @import 'soundcloud-iframe';
 @import 'bandcamp-widget';
-@import 'footer';
+@import '_components/Footer/style';

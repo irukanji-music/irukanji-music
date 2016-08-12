@@ -31,19 +31,13 @@ layout: compress
 </head>
 <body>
 
-    {% include Header.html %}
+    {% include Header/index.html %}
 
     {{ content }}
 
-    {% include Footer.html %}
+    {% include Footer/index.html %}
 
-    <script src="{{ site.baseurl }}/assets/js/vendor/jquery-1.11.3.min.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/vendor/jquery.waypoints.min.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/vendor/simple-parallax.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/vendor/jquery.fittext.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/vendor/layzr.min.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/vendor/holder.min.js"></script>
-    <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/all.min.js"></script>
 
     <script type="text/javascript">
         (function (d, w, c) {

@@ -1,0 +1,14 @@
+<aside>
+    <div class="sidebar-releases">
+        {% for releases in site.categories.releases %}
+            <a class="sidebar-release-item" href="{{ site.baseurl }}{{ releases.url }}">
+                <img
+                    data-src="holder.js/50x50?auto=yes&font=icomoon&text=&#xe603&fg=000&bg=8ff&size=25"
+                    data-layzr="{{ site.baseurl }}/assets/img/releases/{{ releases.release-id }}-th.jpg"
+                    data-layzr-retina="{{ site.baseurl }}/assets/img/releases/{{ releases.release-id }}-th.jpg"
+                >
+                <div>{{ releases.title }}</div>
+            </a>
+        {% endfor %}
+    </div>
+</aside>

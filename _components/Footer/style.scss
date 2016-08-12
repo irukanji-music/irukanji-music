@@ -1,0 +1,30 @@
+.footer {
+    height: auto;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-bottom: 80px;
+
+    a {
+        padding: 4px;
+        display: inline-block;
+
+            [class^="icon-"] {
+                margin-right: 4px;
+                position: relative;
+                top: 2px;
+            }
+    }
+
+    nav.contact {
+        margin-bottom: 20px;
+    }
+
+    nav.social {
+        margin-bottom: 20px;
+
+        a {
+            margin: 0 4px;
+        }
+    }
+}

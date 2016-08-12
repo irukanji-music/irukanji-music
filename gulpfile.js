@@ -5,17 +5,18 @@ var gulp = require('gulp'),
     gutil = require('gulp-util'),
     plumber = require('gulp-plumber'),
     concat = require('gulp-concat'),
-    uglify = require('gulp-uglify');
+    uglify = require('gulp-uglify'),
+    cp = require('child_process');
 
 var messages = {
     jekyllBuild: 'gulp jekyll-build'
 };
 
 // gulp jekyll-build
-gulp.task('jekyll-build', ['jsMin'], function (done) {
+gulp.task('jekyll-build', ['js-min'], function (done) {
     browserSync.notify(messages.jekyllBuild);
     var jekyll = process.platform === "win32" ? "jekyll.bat" : "jekyll";
-    return cp.spawn(jekyll, ['build', '--config', '_config.yml,_config_dev.yml'], {stdio: 'inherit'})
+    return cp.spawn(jekyll, ['build', '--config', '_config.yml,_config-dev.yml'], {stdio: 'inherit'})
         .on('close', done);
 });
 
@@ -57,6 +58,7 @@ gulp.task('js-concat', function() {
     return gulp.src([
             '_js/lib/*',
             '_js/vendor/*',
+            '_js/main.js',
             '_components/**/*.js',
         ])
         .pipe(concat('all.min.js'))
@@ -86,10 +88,11 @@ gulp.task('watch', ['js-min', 'browser-sync'], function () {
         '_components/**/*.js',
         '_components/**/*.yml',
         '_components/**/*.json',
+        '_js/main.js',
         '_pages/**/*',
         'assets/img/**/*',
         'assets/fonts/**/*',
-        '_config.yml'
+        '_config-dev.yml'
     ], ['jekyll-rebuild']);
 });
 
