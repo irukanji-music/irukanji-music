@@ -16,7 +16,7 @@ var messages = {
 gulp.task('jekyll-build', ['js-min'], function (done) {
     browserSync.notify(messages.jekyllBuild);
     var jekyll = process.platform === "win32" ? "jekyll.bat" : "jekyll";
-    return cp.spawn(jekyll, ['build', '--config', '_config.yml,_config-dev.yml'], {stdio: 'inherit'})
+    return cp.spawn(jekyll, ['build', '--config', '_config.yml,_config_dev.yml'], {stdio: 'inherit'})
         .on('close', done);
 });
 
