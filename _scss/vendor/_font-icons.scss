@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "svgFont";
+    src: url('./../fonts/svgFont.eot');
+    src: url('./../fonts/svgFont.eot?#iefix') format('eot'),
+    url('./../fonts/svgFont.woff2') format('woff2'),
+    url('./../fonts/svgFont.woff') format('woff'),
+    url('./../fonts/svgFont.ttf') format('truetype'),
+    url('./../fonts/svgFont.svg#svgFont') format('svg');
+}
+
+.icon, [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: "svgFont" !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin icon-styles {
+    font-family: "svgFont";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+}
+
+%icon {
+    @include icon-styles;
+}
+
+@function icon-char($filename) {
+    $char: "";
+
+    @if $filename == bandcamp {
+    $char: "\E001";
+}
+    @if $filename == coub {
+    $char: "\E002";
+}
+    @if $filename == deer1 {
+    $char: "\E003";
+}
+    @if $filename == deer2 {
+    $char: "\E004";
+}
+    @if $filename == discogs {
+    $char: "\E005";
+}
+    @if $filename == eagle {
+    $char: "\E006";
+}
+    @if $filename == email {
+    $char: "\E007";
+}
+    @if $filename == facebook {
+    $char: "\E008";
+}
+    @if $filename == google-plus {
+    $char: "\E009";
+}
+    @if $filename == kokopelli {
+    $char: "\E00A";
+}
+    @if $filename == lastfm {
+    $char: "\E00B";
+}
+    @if $filename == mixcloud {
+    $char: "\E00C";
+}
+    @if $filename == native-american-eagle {
+    $char: "\E00D";
+}
+    @if $filename == skype {
+    $char: "\E00E";
+}
+    @if $filename == soundcloud {
+    $char: "\E00F";
+}
+    @if $filename == spiral1 {
+    $char: "\E010";
+}
+    @if $filename == spiral2 {
+    $char: "\E011";
+}
+    @if $filename == twitter {
+    $char: "\E012";
+}
+
+@return $char;
+}
+
+@mixin icon($filename, $insert: before, $extend: true) {
+&:#{$insert} {
+    @if $extend {
+        @extend %icon;
+    } @else {
+        @include icon-styles;
+    }
+    content: icon-char($filename);
+}
+}
+
+.icon-bandcamp {
+    @include icon(bandcamp);
+}
+.icon-coub {
+    @include icon(coub);
+}
+.icon-deer1 {
+    @include icon(deer1);
+}
+.icon-deer2 {
+    @include icon(deer2);
+}
+.icon-discogs {
+    @include icon(discogs);
+}
+.icon-eagle {
+    @include icon(eagle);
+}
+.icon-email {
+    @include icon(email);
+}
+.icon-facebook {
+    @include icon(facebook);
+}
+.icon-google-plus {
+    @include icon(google-plus);
+}
+.icon-kokopelli {
+    @include icon(kokopelli);
+}
+.icon-lastfm {
+    @include icon(lastfm);
+}
+.icon-mixcloud {
+    @include icon(mixcloud);
+}
+.icon-native-american-eagle {
+    @include icon(native-american-eagle);
+}
+.icon-skype {
+    @include icon(skype);
+}
+.icon-soundcloud {
+    @include icon(soundcloud);
+}
+.icon-spiral1 {
+    @include icon(spiral1);
+}
+.icon-spiral2 {
+    @include icon(spiral2);
+}
+.icon-twitter {
+    @include icon(twitter);
+}
