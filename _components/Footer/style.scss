@@ -20,6 +20,29 @@
         margin-bottom: 20px;
     }
 
+    nav.sites {
+        margin-bottom: 20px;
+        font-size: 0;
+
+        a {
+            padding: 10px;
+            display: inline-block;
+            min-width: 60px;
+
+            span {
+                font-size: 100px;
+                margin: 0 0 10px;
+                display: inline-block;
+            }
+
+            i {
+                font-size: 14px;
+                font-style: normal;
+                display: block;
+            }
+        }
+    }
+
     nav.social {
         margin-bottom: 20px;
 
