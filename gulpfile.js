@@ -49,7 +49,7 @@ gulp.task('sass', function () {
         .pipe(sassUnicode())
         .pipe(prefix(['last 2 versions', 'ie 8', 'ie 9'], { cascade: true }))
         .pipe(gulp.dest('_site/assets/css/'))
-        .pipe(browserSync.reload({stream:true}))
+        .pipe(browserSync.reload({stream: true}))
         .pipe(gulp.dest('assets/css/'));
 });
 
@@ -105,15 +105,16 @@ gulp.task('watch', ['js-min', 'browser-sync'], function () {
         '_components/**/*.scss',
     ], ['sass']);
     gulp.watch([
-        '_layouts/*.html',
+        '_layouts/',
         '_components/**/*.html',
         '_components/**/*.js',
         '_components/**/*.yml',
         '_components/**/*.json',
-        '_js/main.js',
-        '_pages/**/*',
-        'assets/img/**/*',
-        'assets/fonts/**/*',
+        '_js/',
+        '_pages/',
+        '_posts/',
+        'assets/img/',
+        'assets/fonts/',
         '_config_dev.yml'
     ], ['jekyll-rebuild']);
 });
