@@ -1,6 +1,5 @@
-// @import 'vendor/icomoon';
-@import 'vendor/font-icons';
 @import 'vendor/normalize';
+@import 'vendor/svg-icons/font';
 @import 'vendor/bourbon/bourbon';
 @import 'grid-settings';
 @import 'vendor/neat/neat';
@@ -17,6 +16,6 @@
 @import 'wrapper';
 @import 'Releases';
 @import '_components/SoundCloud/style';
-@import '_components/Mixcloud/style';
+@import '_components/MixcloudPlayer/style';
 @import 'bandcamp-widget';
 @import '_components/Footer/style';

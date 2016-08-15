@@ -77,19 +77,20 @@ gulp.task('js-min', ['js-concat'], function() {
         .pipe(gulp.dest('assets/js/'));
 });
 
-// gulp fonts
-gulp.task('fonts', function () {
-    var fontName = 'svgFont';
+// gulp font
+gulp.task('font', function () {
+    var fontName = 'svg-font';
 
     return gulp.src('assets/img/svg-icons/*.svg')
         .pipe(iconfontCss({
             fontName: fontName,
-            path: '_scss/vendor/_font-icons-template.scss',
-            targetPath: '../../_scss/vendor/_font-icons.scss',
+            path: '_scss/vendor/svg-icons/_template.scss',
+            targetPath: '../../_scss/vendor/svg-icons/_font.scss',
             fontPath: './../fonts/'
         }))
         .pipe(iconfont({
             fontName: fontName,
+            fontHeight : 1001,
             formats: ['svg', 'ttf', 'eot', 'woff', 'woff2'],
             normalize: true
         }))
@@ -105,7 +106,7 @@ gulp.task('watch', ['js-min', 'browser-sync'], function () {
         '_components/**/*.scss',
     ], ['sass']);
     gulp.watch([
-        '_layouts/',
+        '_layouts/*.html',
         '_components/**/*.html',
         '_components/**/*.js',
         '_components/**/*.yml',
