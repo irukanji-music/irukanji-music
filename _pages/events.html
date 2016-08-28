@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: events
 title: Events
 meta: Irukanji events, parties, open-airs, festivals
 keywords: event, party, open-air, festival
@@ -8,31 +8,3 @@ og-image: events-og.jpg
 
 permalink: /events/
 ---
-
-<br>
-<br>
-<br>
-<br>
-
-<main class="wrapper">
-    <section class="events-page">
-
-        <h2><span class="icon-native-american-eagle"></span> Events</h2>
-
-        <div class="events-container">
-            {% for events in site.categories.events %}
-
-                <article class="event-item">
-                    <span>{{ events.date | date: "%d.%m.%Y" }}</span> - 
-                    <span>{{ events.title }}</span> | 
-                    <a href="{{ events.fb-link }}" target="_blank"><span class="icon-facebook"></span></a>
-                </article>
-
-            {% endfor %}
-
-            <div>and more . . .</div>
-
-        </div>
-
-    </section>
-</main>

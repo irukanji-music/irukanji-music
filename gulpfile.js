@@ -114,7 +114,8 @@ gulp.task('watch', ['js-min', 'browser-sync'], function () {
         '_js/**/*',
         '_pages/**/*',
         '_posts/**/*',
-        'assets/**/*',
+        'assets/img/**/*',
+        'assets/fonts/**/*',
         '_config_dev.yml'
     ], ['jekyll-rebuild']);
 });

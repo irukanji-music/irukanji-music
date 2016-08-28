@@ -1,0 +1,11 @@
+<div class="event-list">
+
+    {% for i in site.data.EventList.config %}
+
+        <div class="event-list__item">
+            <span>{{ i.date }}</span> - <span>{{ i.title }}</span> | <a href="{{ i.facebook }}" target="_blank"><span class="icon-facebook"></span></a>
+        </div>
+
+    {% endfor %}
+
+</div>
