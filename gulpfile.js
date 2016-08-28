@@ -102,20 +102,19 @@ gulp.task('font', function () {
 // gulp watch
 gulp.task('watch', ['js-min', 'browser-sync'], function () {
     gulp.watch([
-        '_scss/**/*.scss',
+        '_scss/**/*',
         '_components/**/*.scss',
     ], ['sass']);
     gulp.watch([
-        '_layouts/*.html',
+        '_layouts/**/*',
         '_components/**/*.html',
         '_components/**/*.js',
         '_components/**/*.yml',
         '_components/**/*.json',
-        '_js/',
-        '_pages/',
-        '_posts/',
-        'assets/img/',
-        'assets/fonts/',
+        '_js/**/*',
+        '_pages/**/*',
+        '_posts/**/*',
+        'assets/**/*',
         '_config_dev.yml'
     ], ['jekyll-rebuild']);
 });
