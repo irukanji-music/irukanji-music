@@ -6,9 +6,9 @@ Web development of Irukanji Music offisial site
 
 ### Run
 
-`npm i`
+    npm i
 
-`gulp watch`
+    gulp watch
 
 ### Used
 
