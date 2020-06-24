@@ -1,4 +1,5 @@
 baseurl: '/irukanji-jekyll'
+new_site_url: 'https://irukanji.sentimony.com'
 include: ['_pages']
 exclude: ['README.md', 'node_modules', 'gulpfile.js', 'package.json']
 includes_dir: ./_components
